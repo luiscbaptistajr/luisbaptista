@@ -1,9 +1,11 @@
 import Specialties from "../sections/specialties";
+import Hero from "../sections/hero";
 
 export const Section = () => {
   return (
     <>
-        <Specialties />
+      <Hero />
+      <Specialties />
     </>
   )
 }

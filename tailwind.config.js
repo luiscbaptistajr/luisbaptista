@@ -9,7 +9,8 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Manrope', 'sans-serif']
+      'sans': ['Manrope', 'sans-serif'],
+      'special': ['Passion One', 'sans-serif']
     },
     screens: {
       'sm': '640px',
@@ -26,6 +27,16 @@ export default {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+    },
+    fontSize: {
+      sm: '0.8rem',
+      base: '1rem',
+      xl: '1.25rem',
+      sxl: '24rem',
+      '2xl': '1.563rem',
+      '3xl': '1.953rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
     },
     container: {
       center: true,

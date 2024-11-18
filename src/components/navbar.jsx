@@ -6,25 +6,25 @@ const Navbar = ({ navOpen }) => {
     const activeBox = useRef();
 
     const navItems = [
-        {
-          label: 'Home',
-          link: '#home',
-          className: 'nav-link active',
-          ref: lastActiveLink
-        },
+        // {
+        //   label: 'Home',
+        //   link: '#home',
+        //   className: 'nav-link active',
+        //   ref: lastActiveLink
+        // },
         {
           label: 'About',
-          link: '#about',
+          link: 'about',
           className: 'nav-link'
         },
         {
           label: 'Design',
-          link: '#design',
+          link: 'design',
           className: 'nav-link'
         },
         {
           label: 'Development',
-          link: '#development',
+          link: 'development',
           className: 'nav-link'
         },
         {

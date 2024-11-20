@@ -15,7 +15,8 @@ import Navbar from "./navbar"
 
 const Header = () => {
     const [navOpen, setNavOpen] = useState(false);
-
+    const URI = window.location.origin;
+    // const myLogo = `${URI}/images/logo.svg`
     return (
         <>
             <header className="w-full flex items-center">
@@ -28,10 +29,10 @@ const Header = () => {
                         className="logo"
                         >
                             <img 
-                            src="/images/logo.svg" 
-                            width={30} 
-                            height={30} 
-                            alt="Luis Baptista" 
+                                src={`${URI}/images/logo.svg`}
+                                width={30} 
+                                height={30} 
+                                alt="Luis Baptista" 
                             />
 
                         </a>

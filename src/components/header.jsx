@@ -29,7 +29,8 @@ const Header = () => {
                         className="logo"
                         >
                             <img 
-                                src={`${URI}/images/logo.svg`}
+                                src="/images/logo.svg"
+                                // src={`${URI}/images/logo.svg`}
                                 width={30} 
                                 height={30} 
                                 alt="Luis Baptista" 

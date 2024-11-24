@@ -1,4 +1,4 @@
-import { Routes, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 /** Components */
 import Header from "./components/header";
@@ -22,6 +22,7 @@ const App = () => {
          <About />
          <Design />
          <Development /> */}
+         <BrowserRouter>
          <Routes>
             {/* <Route path="/" element={<Home />} /> */}
             <Route path="*" element={<Home />} />
@@ -29,7 +30,8 @@ const App = () => {
             <Route path="/luisbaptista/about" element={<About />} />
             <Route path="/luisbaptista/design" element={<Design />} />
             <Route path="/luisbaptista/development" element={<Development />} />
-        </Routes>   
+        </Routes> 
+        </BrowserRouter>  
       </main>
       <Footer />
     </>

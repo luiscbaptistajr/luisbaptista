@@ -38,7 +38,7 @@ const App = () => {
               </h1>
               <div className="relative md:justify-self-center">
                 <nav className="navbar">
-                  <Link className='nav-link' to="/home">Home</Link>
+                  {/* <Link className='nav-link' to="/home">Home</Link> */}
                   <Link className='nav-link' to="/about">About</Link>
                   <Link className='nav-link' to="/design">design</Link>
                   <Link className='nav-link' to="/development">development</Link>

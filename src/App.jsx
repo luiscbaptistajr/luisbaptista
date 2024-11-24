@@ -18,11 +18,11 @@ const App = () => {
     <>
       <Header />
       <main>
-         {/* <Home />
-         <About />
-         <Design />
-         <Development /> */}
-         <BrowserRouter>
+        {/* <Home />
+        <About />
+        <Design />
+        <Development /> */}
+        <HashRouter>
           <Routes>
               {/* <Route path="/" element={<Home />} /> */}
               <Route path="*" element={<Home />} />
@@ -31,7 +31,7 @@ const App = () => {
               <Route path="/design" element={<Design />} />
               <Route path="/development" element={<Development />} />
           </Routes> 
-        </BrowserRouter>  
+        </HashRouter>  
       </main>
       <Footer />
     </>

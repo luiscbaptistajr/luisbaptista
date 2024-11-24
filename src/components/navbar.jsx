@@ -2,23 +2,17 @@ import { useRef } from "react";
 import PropTypes from "prop-types";
 
 // import { HashRouter, Routes, Route } from 'react-router-dom';
-// import { HashRouter, Link } from 'react-router-dom';
+import { HashRouter, Link } from 'react-router-dom';
 
-import About from '../pages/about';
-import Design from '../pages/design';
-import Development from '../pages/development';
+// import About from '../pages/about';
+// import Design from '../pages/design';
+// import Development from '../pages/development';
 
 const Navbar = ({ navOpen }) => {
     const lastActiveLink = useRef();
     const activeBox = useRef();
 
     const navItems = [
-        // {
-        //   label: 'Home',
-        //   link: '#home',
-        //   className: 'nav-link active',
-        //   ref: lastActiveLink
-        // },
         {
           label: 'About',
           link: '/about',
@@ -67,7 +61,7 @@ const Navbar = ({ navOpen }) => {
                         key={key} 
                         ref={ref}
                         className={className}
-                        
+                        onClick={null}
                         >
                             {label}
                         </a>

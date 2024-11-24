@@ -27,7 +27,7 @@ const App = () => {
                 className="logo"
                 >
                     <img 
-                        src="/images/logo.svg"
+                        src="./images/logo.svg"
                         // src={`${URI}/images/logo.svg`}
                         width={30} 
                         height={30} 
@@ -50,7 +50,7 @@ const App = () => {
           <Routes>
               {/* <Route path="/" element={<Home />} /> */}
               <Route path="*" element={<Home />} />
-              <Route path="/home" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/design" element={<Design />} />
               <Route path="/development" element={<Development />} />

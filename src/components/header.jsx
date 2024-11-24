@@ -26,11 +26,11 @@ const Header = () => {
                     <h1 className="relative md:justify-self-center">
                         
                             <a 
-                            href="/luisbaptista/home" 
+                            href="/home" 
                             className="logo"
                             >
                                 <img 
-                                    src="/luisbaptista/images/logo.svg"
+                                    src="/images/logo.svg"
                                     // src={`${URI}/images/logo.svg`}
                                     width={30} 
                                     height={30} 

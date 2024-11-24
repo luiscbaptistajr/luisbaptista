@@ -20,17 +20,17 @@ const Navbar = ({ navOpen }) => {
         // },
         {
           label: 'About',
-          link: '/luisbaptista/about',
+          link: '/about',
           className: 'nav-link'
         },
         {
           label: 'Design',
-          link: '/luisbaptista/design',
+          link: '/design',
           className: 'nav-link'
         },
         {
           label: 'Development',
-          link: '/luisbaptista/development',
+          link: '/development',
           className: 'nav-link'
         },
         {

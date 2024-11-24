@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 
 /** Components */
 import Header from "./components/header";
@@ -9,7 +9,6 @@ import About from './pages/about';
 import Design from './pages/design';
 import Development from './pages/development';
 
-
 import Footer from "./components/footer";
 // import Parallax from "./sections/parallax";
 
@@ -19,14 +18,18 @@ const App = () => {
     <>
       <Header />
       <main>
-          <Routes>
-              {/* <Route path="/" element={<Home />} /> */}
-              <Route path="/luisbaptista/" element={<Home />} />
-              <Route path="/luisbaptista/home" element={<Home />} />
-              <Route path="/luisbaptista/about" element={<About />} />
-              <Route path="/luisbaptista/design" element={<Design />} />
-              <Route path="/luisbaptista/development" element={<Development />} />
-          </Routes>
+         {/* <Home />
+         <About />
+         <Design />
+         <Development /> */}
+         <Routes>
+            {/* <Route path="/" element={<Home />} /> */}
+            <Route path="*" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/luisbaptista/about" element={<About />} />
+            <Route path="/luisbaptista/design" element={<Design />} />
+            <Route path="/luisbaptista/development" element={<Development />} />
+        </Routes>   
       </main>
       <Footer />
     </>

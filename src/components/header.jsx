@@ -1,7 +1,7 @@
 /** code shortcut to write react code template: type 'rafc' then enter */
 
 
-
+import Home from '../pages/home';
 /**
  * Node Modules
  */
@@ -24,19 +24,21 @@ const Header = () => {
                 <div className="w-full mx-auto flex justify-between items-center">
 
                     <h1 className="relative md:justify-self-center">
-                        <a 
-                        href="/luisbaptista/home" 
-                        className="logo"
-                        >
-                            <img 
-                                src="/luisbaptista/images/logo.svg"
-                                // src={`${URI}/images/logo.svg`}
-                                width={30} 
-                                height={30} 
-                                alt="Luis Baptista" 
-                            />
+                        
+                            <a 
+                            href="/luisbaptista/home" 
+                            className="logo"
+                            >
+                                <img 
+                                    src="/luisbaptista/images/logo.svg"
+                                    // src={`${URI}/images/logo.svg`}
+                                    width={30} 
+                                    height={30} 
+                                    alt="Luis Baptista" 
+                                />
 
-                        </a>
+                            </a>
+                            
                         {/* <small className="absolute bottom-0 px-10"><span>luis</span><span>baptista</span></small> */}
                     </h1>
 

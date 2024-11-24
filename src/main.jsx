@@ -15,9 +15,9 @@
 
 // main.js
 import React from 'react';
-import ReactDOM from 'react-dom';
-// import { BrowserRouter } from 'react-router-dom';
-import { HashRouter } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+// import { HashRouter } from 'react-router-dom';
 import App from './App';
 
 /** CSS link */
@@ -30,14 +30,12 @@ import './index.css'
 //    }
 //  ]);
  
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-   <React.StrictMode>
-      <HashRouter>
-         <App />
-      </HashRouter>
-   </React.StrictMode>
-);
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//    <React.StrictMode>
+//       <HashRouter router={router} />
+//    </React.StrictMode>
+// );
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -53,3 +51,12 @@ root.render(
 //      <BrowserRouter router={router} />
 //    </React.StrictMode>
 //  );
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <React.StrictMode>
+      <BrowserRouter>
+         <App />
+      </BrowserRouter>
+   </React.StrictMode>
+);

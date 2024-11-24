@@ -51,7 +51,6 @@ const Navbar = ({ navOpen }) => {
     ];
   
     return (
-
             <nav className={'navbar ' + (navOpen ? 'active' : '')}>
                 {
                    
@@ -73,12 +72,7 @@ const Navbar = ({ navOpen }) => {
                     className="active-box"
                     ref={activeBox}
                 ></div>
-
             </nav>
-
-
-            
-       
     )
 }
 

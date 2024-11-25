@@ -5,7 +5,7 @@ export const HomeHero = () => {
             <h3 className="title-heading hero-head">
               <span className="first-name">luis</span><span className="last-name">baptista</span>
             </h3>
-            <p className="special-font">COMING SOON</p>
+            <p className="special-font">PORTFOLIO</p>
             <button className="btn-green">About me</button>
         </div>
     </section>

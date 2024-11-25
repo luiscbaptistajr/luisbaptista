@@ -1,33 +1,99 @@
 export const Works = () => {
   return (
-    <section>
-        <div className="mx-24 my-auto">
-            <ul>
+    <section className="w-full">
+        <div className="mx-24 my-auto portfolio-works-section">
+            <ul className="list-blocks">
                 <li><a href="">UI/UX</a></li>
                 <li><a href="">Graphics</a></li>
                 <li><a href="">Audio/Video Production</a></li>
                 <li><a href="">Design Challenge</a></li>
             </ul>
-            <div>
-                <img src="https://placehold.co/372x223" alt="" />
-                <h3>Lorem ipsum dolor sit amet</h3>
-                <p>Role</p>
-                <ul>
-                    <li>UI/UX</li>
-                    <li>Web Design</li>
-                    <li>Project Manager</li>
-                </ul>
-            </div>
+            
+            <div className="card-container grid grid-cols-3 gap-4">
+                <div className="card-items">
+                    <img className="card-img" src="https://placehold.co/372x223" alt="" />
+                    <div className="work-detail">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Role</p>
+                        <ul className="specs">
+                            <li><small>UI/UX</small></li>
+                            <li><small>Web Design</small></li>
+                            <li><small>Project Manager</small></li>
+                        </ul>
+                    </div>
+                    
+                </div>
 
-            <div>
-                <img src="https://placehold.co/372x223" alt="" />
-                <h3>Lorem ipsum dolor sit amet</h3>
-                <p>Role</p>
-                <ul>
-                    <li>UI/UX</li>
-                    <li>Web Design</li>
-                    <li>Project Manager</li>
-                </ul>
+                <div className="card-items">
+                    <img className="card-img" src="https://placehold.co/372x223" alt="" />
+                    <div className="work-detail">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Role</p>
+                        <ul className="specs">
+                            <li><small>UI/UX</small></li>
+                            <li><small>Web Design</small></li>
+                            <li><small>Project Manager</small></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div className="card-items">
+                    <img className="card-img" src="https://placehold.co/372x223" alt="" />
+                    <div className="work-detail">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Role</p>
+                        <ul className="specs">
+                            <li><small>UI/UX</small></li>
+                            <li><small>Web Design</small></li>
+                            <li><small>Project Manager</small></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div className="card-items">
+                    <img className="card-img" src="https://placehold.co/372x223" alt="" />
+                    <div className="work-detail">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Role</p>
+                        <ul className="specs">
+                            <li><small>UI/UX</small></li>
+                            <li><small>Web Design</small></li>
+                            <li><small>Project Manager</small></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div className="card-items">
+                    <img className="card-img" src="https://placehold.co/372x223" alt="" />
+                    <div className="work-detail">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Role</p>
+                        <ul className="specs">
+                            <li><small>UI/UX</small></li>
+                            <li><small>Web Design</small></li>
+                            <li><small>Project Manager</small></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div className="card-items">
+                    <img className="card-img" src="https://placehold.co/372x223" alt="" />
+                    <div className="work-detail">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Role</p>
+                        <ul className="specs">
+                            <li><small>UI/UX</small></li>
+                            <li><small>Web Design</small></li>
+                            <li><small>Project Manager</small></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
             </div>
         </div>
     </section>

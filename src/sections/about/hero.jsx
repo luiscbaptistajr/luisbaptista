@@ -12,7 +12,7 @@ export const AboutHero = () => {
           </div>
           <div className="col-start-2 col-span-5 btn-container">
             <h3>My Resume</h3>
-            <div className="resume-options">
+            <div className="list-blocks">
               <a href="#">Product Designer</a>
               <a href="#">UI/UX Designer</a>
               <a href="#">UI/UX Designer</a>

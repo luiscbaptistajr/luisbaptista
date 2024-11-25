@@ -25,7 +25,6 @@ html {
 }
 
 body {
-  width: 1400px;
   /* Extensions: Tailwind CSS IntelliSense */
   background-color: var(--secondary-neutral-grey-001);
   @apply m-auto text-zinc-50;
@@ -33,11 +32,7 @@ body {
 
 header {
   background-color: var(--secondary-neutral-grey-001);
-  @apply text-zinc-950 h-12;
-}
-
-main {
-  @apply py-24;
+  @apply text-zinc-950 h-12 my-5;
 }
 
 /* ----------------------------------- *\
@@ -68,7 +63,7 @@ main {
 /* Section title */
 .heading-h2 {
   border-color: rgb(0 59 73);
-  @apply text-center;
+  @apply text-center py-14;
 }
 
 /* Text */
@@ -80,8 +75,9 @@ main {
 .special-font {
   /* font-family: var(--font-family-passionOne); */
   line-height: 0.75;
-  font-size: clamp(24px, 24vw, 24rem);
-  @apply font-special decoration-sky-500/30 text-center;
+  /* font-size: clamp(24px, 24vw, 24rem); */
+  font-size: clamp(5rem, 2.8571rem + 8.1633vw, 10rem);
+  @apply font-special decoration-sky-500/30 text-left my-5;
 }
 
 .first-name {
@@ -99,7 +95,7 @@ main {
 
 .btn-green {
   background-color: var(--primary-accent-green-003);
-  @apply p-2 rounded-md text-xl font-bold absolute right-10;
+  @apply p-2 rounded-md text-xl font-bold;
 }
 
 .btn-green:hover {
@@ -133,39 +129,65 @@ main {
   @apply pt-24 pb-24 rounded-2xl;
 }
 
-/* .contact-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  left: -5px;
-  margin: auto;
-  width: 200px;
-  height: 264px;
-  border-radius: 10px;
-  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
-  z-index: -10;
-  pointer-events: none;
-  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.contact-card::after {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
-  transform: translate3d(0, 0, 0) scale(0.95);
-  filter: blur(20px);
-} */
-
-/* .container {
-  height: 100vh;
-  overflow: hidden;
-  overflow-y: auto;
-  perspective: 3px;
-} */
-
 .contact-card img {
   display: inline;
   @apply pb-5;
+}
+
+.section-content {
+  @apply mx-24 my-auto;
+}
+.hero-section {
+  background-color: var(--secondary-neutral-black-001);
+  @apply py-40;
+}
+
+.specialties-section {
+  height: auto;
+  @apply grid grid-rows-1 grid-flow-col gap-10;
+}
+.specialties-product {
+  width: 100%;
+  background-color: var(--secondary-neutral-white-001);
+  border-radius: 24px;
+  color: #000;
+  /* height: 590px; */
+}
+
+.productDes-img {
+  background-image: url("https://placehold.co/534x370");
+  background-size: cover;
+  height: 370px;
+  max-width: 100%;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  @apply bg-no-repeat bg-center bg-cover;
+}
+
+.productDev-img {
+  background-image: url("https://placehold.co/230x320");
+  background-size: cover;
+  max-width: 100%;
+  width: 100%;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  @apply bg-no-repeat bg-center bg-cover;
+}
+
+.productMgt-img {
+  background-image: url("https://placehold.co/230x220");
+  background-size: cover;
+  max-width: 100%;
+  width: 100%;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+  @apply bg-no-repeat bg-center bg-cover;
+}
+
+.specialties-box {
+  background-color: var(--secondary-neutral-white-001);
+  border-radius: 24px;
+  color: #000;
+  height: auto;
+  @apply p-5;
 }

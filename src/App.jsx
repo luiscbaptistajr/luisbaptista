@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter, HashRouter, Link } from 'react-router-dom';
+import { Routes, Route, HashRouter, Link } from 'react-router-dom';
 
 /** Components */
 import Header from "./components/header";
@@ -20,7 +20,7 @@ const App = () => {
       {/* <Header /> */}
       <HashRouter>
           <header className="w-full flex items-center">
-            <div className="w-full mx-auto flex justify-between items-center">
+            <div className="w-full mx-24 my-auto flex justify-between items-center">
               <h1 className="relative md:justify-self-center">
                 <a 
                 href="/luisbaptista" 
@@ -28,10 +28,9 @@ const App = () => {
                 >
                     <img 
                         src="./images/logo.svg"
-                        // src={`${URI}/images/logo.svg`}
                         width={30} 
                         height={30} 
-                        alt="Luis Baptista" 
+                        alt="Luis Baptista Logo" 
                     />
 
                 </a>
@@ -45,17 +44,17 @@ const App = () => {
                 </nav>
               </div>
             </div>
-            
           </header>
-          <Routes>
-              {/* <Route path="/" element={<Home />} /> */}
-              <Route path="*" element={<Home />} />
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/design" element={<Design />} />
-              <Route path="/development" element={<Development />} />
-          </Routes> 
-        
+          <main>
+            <Routes>
+                {/* <Route path="/" element={<Home />} /> */}
+                <Route path="*" element={<Home />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/design" element={<Design />} />
+                <Route path="/development" element={<Development />} />
+            </Routes> 
+          </main>
       </HashRouter>
       <Footer />
     </>

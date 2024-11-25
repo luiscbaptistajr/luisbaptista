@@ -6,10 +6,10 @@ export const Footer = () => {
     <footer>      
       <Parallax />
       <section className="w-full">
-        <div className="mx-24 my-auto">
+        <div className="mx-24 my-auto contact-section">
           <h2 className="heading-h2 py-16">GET IN TOUCH</h2>
           <p className="display-text text-center px-96 mb-24">Let's do something amazing! Feel free to get in touch through these contacts. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
-          <div className="grid grid-cols-5 gap-4 content-stretch">
+          <div className="grid content-stretch">
             <div className="contact-card col-start-2 self-center text-center align-center">
               <img src="https://placehold.co/200x200" alt="Email Address" />
               <p>luiscbaptistajr@gmail.co</p>
@@ -27,7 +27,7 @@ export const Footer = () => {
       </section>
       {/* <div className="max-w-screen-2xl w-full mx-auto px-4 my-10 flex justify-between items-center"></div> */}
       <section className="w-full">
-        <div className="mx-24 my-auto pt-24 pb-5 flex justify-between items-center">
+        <div className="mx-24 my-auto pt-24 pb-5 flex justify-between items-center footer-link-section">
           <div className="flex">
             <img 
                 src="./images/logo.svg"

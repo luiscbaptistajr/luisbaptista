@@ -1,9 +1,9 @@
 export const Education = () => {
     return (
       <section className="w-full">
-        <div className="mx-24 my-auto grid grid-cols-2 gap-4">
-          <h2 className="col-span-2">Work Affiliations</h2>
-          <div className="col-start-2">
+        <div className="mx-24 my-auto grid grid-cols-2 gap-4 education-section">
+          <h2 className="col-span-2 section-title-h2">Education</h2>
+          <div className="col-start-2 course-detail">
             <div>
               <p><small>Present</small></p>
               <p>Post-Degree Diploma in Web and Mobile App Design and Development</p>
@@ -11,11 +11,11 @@ export const Education = () => {
               <p>As a Web and Mobile App Designer, I will wield the power to transform ideas into interactive realities, bridging the gap between imagination and functionality. With each stroke of design and every line of code, I will contribute to the creation of seamless user experiences that effortlessly navigate across devices and platforms. This stream not only equips me with the technical skills to breathe life into visions but also nurtures my innate creativity, enabling me to sculpt designs that leave a lasting impact.</p>
             </div>
           </div>
-          <div className="col-start-1 row-start-2">
+          <div className="col-start-1 row-start-2 school-logo">
             <img src="https://placehold.co/258x96" alt="" />
           </div>
 
-          <div>
+          <div className="course-detail">
             <div>
               <p><small>Present</small></p>
               <p>Post-Degree Diploma in Web and Mobile App Design and Development</p>
@@ -23,8 +23,8 @@ export const Education = () => {
               <p>As a Web and Mobile App Designer, I will wield the power to transform ideas into interactive realities, bridging the gap between imagination and functionality. With each stroke of design and every line of code, I will contribute to the creation of seamless user experiences that effortlessly navigate across devices and platforms. This stream not only equips me with the technical skills to breathe life into visions but also nurtures my innate creativity, enabling me to sculpt designs that leave a lasting impact.</p>
             </div>
           </div>
-          <div>
-            <img src="https://placehold.co/258x96" alt="" />
+          <div className="school-logo adnu">
+            <img src="https://placehold.co/184x184" alt="" />
           </div>
         </div>
       </section>

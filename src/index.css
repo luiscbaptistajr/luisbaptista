@@ -31,8 +31,8 @@ body {
 }
 
 header {
-  background-color: var(--secondary-neutral-grey-001);
-  @apply text-zinc-950 h-12 my-5;
+  background-color: var(--bg-opacity);
+  @apply text-zinc-950 h-20;
 }
 
 /* ----------------------------------- *\
@@ -190,4 +190,13 @@ header {
   color: #000;
   height: auto;
   @apply p-5;
+}
+
+.parallax-container {
+  background-image: url("https://placehold.co/1400x900");
+  background-size: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 900px;
+  @apply mb-24;
 }

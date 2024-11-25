@@ -1,6 +1,6 @@
 export const Specialties = () => {
   return (
-    <section className="w-full">
+    <section className="w-full mb-24">
         <h2 className="heading-h2">Specialties</h2>
         <div className="specialties-section section-content">
             {/* <div className="special-skills flex-1 w-14 mx-24">

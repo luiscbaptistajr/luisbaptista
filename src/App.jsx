@@ -10,7 +10,6 @@ import Design from './pages/design';
 import Development from './pages/development';
 
 import Footer from "./components/footer";
-// import Parallax from "./sections/parallax";
 
 
 const App = () => {

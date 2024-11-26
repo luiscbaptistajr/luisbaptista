@@ -237,7 +237,7 @@ header {
 }
 
 .parallax-container {
-  /* background-image: url("/luisbaptista/images/parallax-img.jpg"); */
+  background-image: url("https://luiscbaptistajr.github.io/luisbaptista/images/parallax-img.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;

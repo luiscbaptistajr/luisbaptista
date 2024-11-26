@@ -78,7 +78,7 @@ export const TechStack = () => {
                 </div>
 
                 <div className="skill-container">
-                  <img src="./images/trello" alt="" />
+                  <img src="./images/trello.svg" alt="" />
                   <div>
                     <h4>TRELLo</h4>
                     <p>Product Management</p>

@@ -3,7 +3,7 @@ export const AboutHero = () => {
     <section className="w-full hero-section">
       <div className="mx-24 my-auto grid grid-cols-6 gap-4">
           {/* <p className="special-font">ABOUT</p> */}
-          <img className="profile" src="../images/profile.png" alt="" />
+          <img className="profile" src="./images/profile.png" alt="" />
           <div className="col-span-5 intro-container">
             <p>Hello! My name is Luis Baptista</p>
             <p>I have over 10 years experiences as web developer. I specialize in delivering both technical and creative design solutions. I excel in leading complex projects, managing cross-functional teams, and aligning technical roadmaps with business goals.</p>

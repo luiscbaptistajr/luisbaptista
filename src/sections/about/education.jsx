@@ -11,8 +11,8 @@ export const Education = () => {
               <p>As a Web and Mobile App Designer, I will wield the power to transform ideas into interactive realities, bridging the gap between imagination and functionality. With each stroke of design and every line of code, I will contribute to the creation of seamless user experiences that effortlessly navigate across devices and platforms. This stream not only equips me with the technical skills to breathe life into visions but also nurtures my innate creativity, enabling me to sculpt designs that leave a lasting impact.</p>
             </div>
           </div>
-          <div className="col-start-1 row-start-2 school-logo">
-            <img src="https://placehold.co/258x96" alt="" />
+          <div className="col-start-1 row-start-2 school-logo langara">
+            <img src="./images/langara.svg" alt="" />
           </div>
 
           <div className="course-detail">
@@ -24,7 +24,7 @@ export const Education = () => {
             </div>
           </div>
           <div className="school-logo adnu">
-            <img src="https://placehold.co/184x184" alt="" />
+            <img src="./images/adnu.svg" alt="" />
           </div>
         </div>
       </section>

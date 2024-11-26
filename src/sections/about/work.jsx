@@ -30,10 +30,10 @@ export const Work = () => {
                 </div>
             </div>
             <div className="company-logo-container">
-                <img className="logo-bw" src="https://placehold.co/281x74" alt="" />
-                <img className="logo-abs" src="https://placehold.co/250x74" alt="" />
-                <img className="logo-multiS" src="https://placehold.co/250x74" alt="" />
-                <img className="logo-jfc" src="https://placehold.co/250x74" alt="" />
+                <img className="logo-bw" src="./images/logo-bw.svg" alt="" />
+                <img className="logo-abs" src="./images/logo-abs.svg" alt="" />
+                <img className="logo-multiS" src="./images/logo-multi.svg" alt="" />
+                <img className="logo-jfc" src="./images/logo-jfc.svg" alt="" />
             </div>
           
         </div>

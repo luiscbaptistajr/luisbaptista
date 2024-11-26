@@ -7,19 +7,19 @@ export const Footer = () => {
       <Parallax />
       <section className="w-full">
         <div className="mx-24 my-auto contact-section">
-          <h2 className="heading-h2 py-16">GET IN TOUCH</h2>
+          <h2 className="section-title-h2">GET IN TOUCH</h2>
           <p className="display-text text-center px-96 mb-24">Let's do something amazing! Feel free to get in touch through these contacts. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
           <div className="grid content-stretch">
             <div className="contact-card col-start-2 self-center text-center align-center">
-              <img src="https://placehold.co/200x200" alt="Email Address" />
+              <img src="./images/mailbox.png" alt="Email Address" />
               <p>luiscbaptistajr@gmail.co</p>
             </div>
             <div className="contact-card self-center text-center align-center">
-              <img src="https://placehold.co/200x200" alt="Mobile Number" />
+              <img src="./images/phone-alt.png" alt="Mobile Number" />
               <p>1-236-867-1561</p>
             </div>
             <div className="contact-card self-center text-center align-center">
-              <img src="https://placehold.co/200x200" alt="LinkedIn" />
+              <img src="./images/linkedin.png" alt="LinkedIn" />
               <p>/luiscbaptistajr</p>
             </div>
           </div>

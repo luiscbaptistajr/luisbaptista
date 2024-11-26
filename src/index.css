@@ -199,7 +199,7 @@ header {
 }
 
 .productDes-img {
-  /* background-image: url("/luisbaptista/images/side-view-smiley-man-planning-web-design.jpg"); */
+  background-image: url("https://luiscbaptistajr.github.io/luisbaptista/images/side-view-smiley-man-planning-web-design.jpg");
   background-size: cover;
   height: 370px;
   max-width: 100%;
@@ -209,7 +209,7 @@ header {
 }
 
 .productDev-img {
-  /* background-image: url("/luisbaptista/images/programming-background-with-person-working-with-codes-computer.jpg"); */
+  background-image: url("https://luiscbaptistajr.github.io/luisbaptista/images/programming-background-with-person-working-with-codes-computer.jpg");
   background-size: cover;
   max-width: 100%;
   width: 100%;
@@ -219,7 +219,7 @@ header {
 }
 
 .productMgt-img {
-  /* background-image: url("/luisbaptista/images/male-female-colleagues-standing-by-window-looking-business-graphs-it.jpg"); */
+  background-image: url("https://luiscbaptistajr.github.io/luisbaptista/images/male-female-colleagues-standing-by-window-looking-business-graphs-it.jpg");
   background-size: cover;
   max-width: 100%;
   width: 100%;

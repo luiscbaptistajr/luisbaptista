@@ -26,7 +26,7 @@ const App = () => {
                 className="logo"
                 >
                     <img 
-                        src="./images/logo.svg"
+                        src="./images/logo-header.svg"
                         width={30} 
                         height={30} 
                         alt="Luis Baptista Logo" 

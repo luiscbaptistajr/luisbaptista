@@ -169,6 +169,16 @@ header {
   margin: 24px 0;
 }
 
+footer .bg-white {
+  background: var(--Neutral-03, #fff);
+}
+
+.footer-link-section {
+  padding: 20px 0;
+  margin-top: 50px;
+  color: var(--secondary-neutral-grey-002);
+}
+
 .section-content {
   @apply mx-24 my-auto;
 }

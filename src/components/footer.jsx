@@ -26,11 +26,11 @@ export const Footer = () => {
         </div>
       </section>
       {/* <div className="max-w-screen-2xl w-full mx-auto px-4 my-10 flex justify-between items-center"></div> */}
-      <section className="w-full">
-        <div className="mx-24 my-auto pt-24 pb-5 flex justify-between items-center footer-link-section">
+      <section className="w-full bg-white">
+        <div className="mx-24 my-auto flex justify-between items-center footer-link-section">
           <div className="flex">
             <img 
-                src="./images/logo.svg"
+                src="./images/logo-footer.svg"
                 width={30} 
                 height={30} 
                 alt="Luis Baptista" 

@@ -99,7 +99,7 @@ export const Works = () => {
                         <h3>App Design Challenge</h3>
                         <p>Role</p>
                         <ul className="specs">
-                            <li><small>UI/UX</small></li>
+                            <li><small>UI/UX Designer</small></li>
                             <li><small>Mobile App Design</small></li>
                             <li><small>Research</small></li>
                         </ul>

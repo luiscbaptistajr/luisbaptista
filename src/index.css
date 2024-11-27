@@ -200,6 +200,16 @@ footer .bg-white {
   padding-top: 5rem;
   @apply grid grid-rows-1 grid-flow-col gap-10;
 }
+
+.card-title-h3 {
+  /* font-family: Manrope; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 128.571% */
+  letter-spacing: 6.72px;
+  margin-bottom: 14px;
+}
 .specialties-product {
   width: 100%;
   background-color: var(--secondary-neutral-white-001);

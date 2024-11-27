@@ -22,7 +22,7 @@ const App = () => {
             <div className="w-full mx-24 my-auto flex justify-between items-center">
               <h1 className="relative md:justify-self-center">
                 <a 
-                href="/luisbaptista" 
+                href="/" 
                 className="logo"
                 >
                     <img 

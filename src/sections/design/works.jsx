@@ -27,12 +27,11 @@ export const Works = () => {
                 <div className="card-items">
                     <img className="card-img" src="./images/FIDO.jpg" alt="" />
                     <div className="work-detail">
-                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <h3>UX Design Study</h3>
                         <p>Role</p>
                         <ul className="specs">
-                            <li><small>UI/UX</small></li>
-                            <li><small>Web Design</small></li>
-                            <li><small>Project Manager</small></li>
+                            <li><small>UX Designer</small></li>
+                            <li><small>Research</small></li>
                         </ul>
                     </div>
                     

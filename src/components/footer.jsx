@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="grid content-stretch">
             <div className="contact-card col-start-2 self-center text-center align-center">
               <img src="./images/mailbox.png" alt="Email Address" />
-              <p>luiscbaptistajr@gmail.co</p>
+              <p>luiscbaptistajr@gmail.com</p>
             </div>
             {/* <div className="contact-card self-center text-center align-center">
               <img src="./images/phone-alt.png" alt="Mobile Number" />

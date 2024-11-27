@@ -40,7 +40,7 @@ export const Works = () => {
                 <div className="card-items">
                     <img className="card-img" src="./images/BudgetBuddy.jpg" alt="" />
                     <div className="work-detail">
-                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <h3>Team Collaboration Project</h3>
                         <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX</small></li>

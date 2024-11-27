@@ -43,7 +43,7 @@ export const Works = () => {
                         <h3>Team Collaboration Project</h3>
                         <p>Role</p>
                         <ul className="specs">
-                            <li><small>UI/UX</small></li>
+                            <li><small>UI/UX Design</small></li>
                             <li><small>Web Design</small></li>
                             <li><small>Project Manager</small></li>
                         </ul>

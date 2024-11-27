@@ -40,7 +40,7 @@ export const Works = () => {
                 <div className="card-items">
                     <img className="card-img" src="./images/BudgetBuddy.jpg" alt="" />
                     <div className="work-detail">
-                        <h3>Team Collaboration Project</h3>
+                        <h3>Project 2 - Team Collaboration Project</h3>
                         <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX Design</small></li>
@@ -54,7 +54,7 @@ export const Works = () => {
                 <div className="card-items">
                     <img className="card-img" src="./images/PrepUp.jpg" alt="" />
                     <div className="work-detail">
-                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <h3>Capstone Project - Team Collaboration</h3>
                         <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX</small></li>
@@ -68,12 +68,12 @@ export const Works = () => {
                 <div className="card-items">
                     <img className="card-img" src="./images/VancouverDestination.jpg" alt="" />
                     <div className="work-detail">
-                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <h3>Web Design Case Study</h3>
                         <p>Role</p>
                         <ul className="specs">
-                            <li><small>UI/UX</small></li>
+                            <li><small>UI/UX Designer</small></li>
                             <li><small>Web Design</small></li>
-                            <li><small>Project Manager</small></li>
+                            <li><small>Research</small></li>
                         </ul>
                     </div>
                     
@@ -82,12 +82,12 @@ export const Works = () => {
                 <div className="card-items">
                     <img className="card-img" src="./images/BUSKR.jpg" alt="" />
                     <div className="work-detail">
-                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <h3>App Design Challenge</h3>
                         <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX</small></li>
-                            <li><small>Web Design</small></li>
-                            <li><small>Project Manager</small></li>
+                            <li><small>Mobile Application Design</small></li>
+                            <li><small>Research</small></li>
                         </ul>
                     </div>
                     
@@ -96,12 +96,12 @@ export const Works = () => {
                 <div className="card-items">
                     <img className="card-img" src="./images/loba.jpg" alt="" />
                     <div className="work-detail">
-                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <h3>App Design Challenge</h3>
                         <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX</small></li>
-                            <li><small>Web Design</small></li>
-                            <li><small>Project Manager</small></li>
+                            <li><small>Mobile App Design</small></li>
+                            <li><small>Research</small></li>
                         </ul>
                     </div>
                     

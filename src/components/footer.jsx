@@ -14,10 +14,10 @@ export const Footer = () => {
               <img src="./images/mailbox.png" alt="Email Address" />
               <p>luiscbaptistajr@gmail.co</p>
             </div>
-            <div className="contact-card self-center text-center align-center">
+            {/* <div className="contact-card self-center text-center align-center">
               <img src="./images/phone-alt.png" alt="Mobile Number" />
               <p>1-236-867-1561</p>
-            </div>
+            </div> */}
             <div className="contact-card self-center text-center align-center">
               <img src="./images/linkedin.png" alt="LinkedIn" />
               <p>/luiscbaptistajr</p>

@@ -100,7 +100,7 @@ export const Works = () => {
                         <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX Designer</small></li>
-                            <li><small>Mobile App Design</small></li>
+                            <li><small>Mobile App Designer</small></li>
                             <li><small>Research</small></li>
                         </ul>
                     </div>

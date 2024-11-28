@@ -1,7 +1,7 @@
 import { Routes, Route, HashRouter, Link } from 'react-router-dom';
 
 /** Components */
-// import Header from "./components/header";
+import Header from "./components/header";
 // import Hero from "./components/hero";
 
 
@@ -15,6 +15,7 @@ const App = () => {
     <>
       {/* <Header /> */}
       <HashRouter>
+          {/* <Header /> */}
           <header className="w-full flex items-center">
             <div className="w-full flex justify-between items-center header-section">
               <h1 className="relative md:justify-self-center">
@@ -44,8 +45,8 @@ const App = () => {
           <main>
             <Redirection />
           </main>
+          <Footer />
       </HashRouter>
-      <Footer />
     </>
     
   )

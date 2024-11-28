@@ -1,5 +1,5 @@
 
-
+import { Link } from 'react-router-dom';
 export const Footer = () => {
   return (
     // max-w-screen-2xl
@@ -37,11 +37,14 @@ export const Footer = () => {
             <p className="pl-5">luiscbaptistajr &copy; 2024</p>
           </div>
           <div className="col-start-3 col-span-5 text-right">
-            <a className="px-2" href="">About</a>
-            <a className="px-2" href="">Design</a>
-            <a className="px-2" href="">Development</a>
-            <a className="px-2" href="">GITHUB</a>
-            <a className="px-2" href="">Behance</a>
+            <Link className='px-2' to="/about">About</Link>
+            <Link className='px-2' to="/design">Design</Link>
+            <Link className='px-2' to="/development">Development</Link>
+            {/* <a className="px-2" href="/about">About</a>
+            <a className="px-2" href="/design">Design</a>
+            <a className="px-2" href="/development">Development</a> */}
+            <a className="px-2" target="_blank" href="https://github.com/luiscbaptistajr">GITHUB</a>
+            {/* <a className="px-2" href="">Behance</a> */}
           </div>
         </div>
       </section>

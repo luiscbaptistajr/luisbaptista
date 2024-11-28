@@ -39,9 +39,9 @@ export const Works = () => {
                 </div>
 
                 <div className="card-items">
-                    <img className="card-img" src="./images/BudgetBuddy.jpg" alt="" />
+                    <Link to="https://budget-buddy.ca/" target="_blank"><img className="card-img" src="./images/BudgetBuddy.jpg" alt="" /></Link>
                     <div className="work-detail">
-                        <h3>Coming Soon</h3>
+                        <h3><Link to="https://drive.google.com/file/d/1MH77n_kgjjLJ5X5eJzlX0ua73PCHTzto/view" target="_blank">B2B2C Project - Coming Soon</Link></h3>
                         <ul className="specs">
                             <li><small>UI/UX Design</small></li>
                             <li><small>Web Design</small></li>
@@ -52,7 +52,7 @@ export const Works = () => {
                 </div>
 
                 <div className="card-items">
-                    <img className="card-img" src="./images/PrepUp.jpg" alt="" />
+                    <img className="card-img not-ready" src="./images/PrepUp.jpg" alt="" />
                     <div className="work-detail">
                         <h3>Coming Soon</h3>
                         <ul className="specs">
@@ -65,7 +65,7 @@ export const Works = () => {
                 </div>
 
                 <div className="card-items">
-                    <img className="card-img" src="./images/VancouverDestination.jpg" alt="" />
+                    <img className="card-img not-ready" src="./images/VancouverDestination.jpg" alt="" />
                     <div className="work-detail">
                         <h3>Coming Soon</h3>
                         <ul className="specs">
@@ -78,7 +78,7 @@ export const Works = () => {
                 </div>
 
                 <div className="card-items">
-                    <img className="card-img" src="./images/BUSKR.jpg" alt="" />
+                    <img className="card-img not-ready" src="./images/BUSKR.jpg" alt="" />
                     <div className="work-detail">
                         <h3>Coming Soon</h3>
                         <ul className="specs">
@@ -91,7 +91,7 @@ export const Works = () => {
                 </div>
 
                 <div className="card-items">
-                    <img className="card-img" src="./images/loba.jpg" alt="" />
+                    <img className="card-img not-ready" src="./images/loba.jpg" alt="" />
                     <div className="work-detail">
                         <h3>Coming Soon</h3>
                         <ul className="specs">

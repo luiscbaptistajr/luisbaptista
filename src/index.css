@@ -612,11 +612,16 @@ footer .bg-white {
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
 
-  img {
+  .card-img {
     max-width: 100%;
     width: 100%;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
+
+    &.not-ready {
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+    }
   }
 }
 

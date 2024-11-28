@@ -17,7 +17,6 @@ export const Education = () => {
 
           <div className="course-detail">
             <div>
-              <p><small>Present</small></p>
               <h3 className="section-title-h3">Bachelor of Science in Information Technology</h3>
               <p className="body-text-p1">I graduated with a course of a Bachelor of Science in Information Technology. This course embodies the fusion of my passion for innovation, problem-solving, and the ever-evolving digital landscape. Information Technology isn't merely a field; it's a gateway to a world where creativity and logic intertwine to reshape how we live, work, and connect.</p>
               <p className="body-text-p1">What I find most captivating is the dynamic nature of this field. It demands continuous learning, pushing me to stay current with the latest advancements and adapt to rapid changes. As technology becomes increasingly ingrained in our lives, my choice to pursue Information Technology is a commitment to being at the forefront of innovation and progress. It's about being part of a community that thrives on collaboration and uses code to write the future.</p>

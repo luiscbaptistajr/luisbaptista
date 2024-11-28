@@ -1,7 +1,7 @@
 export const Wireframes = () => {
     return (
-      <section className="w-full">
-        <div className="mx-24 my-auto grid grid-cols-2 gap-4 Wireframes-section">
+      <section className="w-full pb-24">
+        <div className="mx-24 my-auto grid grid-cols-2 gap-24 Wireframes-section">
           {/* <h2 className="col-span-2 section-title-h2">Old Design</h2> */}
 
           {/* <img src="./images/nasa/current-001.jpg" alt="" />

@@ -4,19 +4,6 @@ export const Specialties = () => {
         <div className="mx-24 my-auto skill-package-section section-content">
             <h2 className="section-title-h2">Specialties</h2>
             <div className="specialties-section">
-                {/* <div className="special-skills flex-1 w-14 mx-24">
-                    <img className="special-img m-auto" src="https://placehold.co/200x200" alt="Product Design" />
-                    <h3 className="special-heading">Product Design</h3>
-                </div>
-                <div className="special-skills flex-1 w-14 mx-24">
-                    <img className="special-img m-auto" src="https://placehold.co/200x200" alt="Product Development" />
-                    <h3 className="special-heading">Product Development</h3>
-                </div>
-                <div className="special-skills flex-1 w-14 mx-24">
-                    <img className="special-img m-auto" src="https://placehold.co/200x200" alt="Product Management" />
-                    <h3 className="special-heading">Product Management</h3>
-                </div> */}
-
                 <div className="row-span-2 specialties-product">
                     <div className="productDes-img"></div>
                     <div className="specialties-box">
@@ -31,7 +18,7 @@ export const Specialties = () => {
                     </div>
                     <div className="specialties-box">
                         <h3 className="card-title-h3">Product Development</h3>
-                        <p>I have over 10 years of experience building application websites, which has not only honed my strengths but also challenged me to overcome my limitations. My journey has driven me to deeply understand every aspect of the technology stack. It has also given me the opportunity to build frameworks and solutions, enabling me to innovate, adapt, and grow in diverse technical environments.</p>
+                        <p>My experience building application websites, which has not only honed my strengths but also challenged me to overcome my limitations. My journey has driven me to deeply understand every aspect of the technology stack. It has also given me the opportunity to build frameworks and solutions, enabling me to innovate, adapt, and grow in diverse technical environments.</p>
                     </div>
                 </div>
 

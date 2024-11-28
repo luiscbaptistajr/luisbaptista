@@ -16,7 +16,7 @@ const App = () => {
       {/* <Header /> */}
       <HashRouter>
           <header className="w-full flex items-center">
-            <div className="w-full mx-24 my-auto flex justify-between items-center">
+            <div className="w-full flex justify-between items-center header-section">
               <h1 className="relative md:justify-self-center">
                 <a 
                 href="/" 

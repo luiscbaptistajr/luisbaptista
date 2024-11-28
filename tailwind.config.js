@@ -13,6 +13,9 @@ export default {
       'special': ['Passion One', 'sans-serif']
     },
     screens: {
+      'xsm': '420px',
+      // => @media (min-width: 420px) { ... }
+
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 

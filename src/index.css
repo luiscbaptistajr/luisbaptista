@@ -35,6 +35,10 @@ header {
   @apply text-zinc-950 h-20;
 }
 
+.header-section {
+  @apply mx-24 my-auto;
+}
+
 /* ----------------------------------- *\
 * COMPONENTS 
 /* ----------------------------------- */
@@ -614,5 +618,47 @@ footer .bg-white {
     justify-content: center;
     align-items: center;
     gap: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .section-content,
+  .contact-section,
+  .footer-link-section,
+  .header-section {
+    @apply mx-10;
+  }
+
+  .hero-section div {
+    @apply mx-10 my-auto;
+  }
+
+  .special-font {
+    letter-spacing: inherit;
+    margin: 1rem 0;
+  }
+
+  /* .special-font {
+    font-size: clamp(2.75rem, 3.5rem + -3.75vw, 2rem);
+  } */
+
+  .specialties-section {
+    grid-auto-flow: row;
+  }
+
+  .specialties-box {
+    width: 100%;
+  }
+
+  .display-text {
+    @apply px-5;
+  }
+
+  .parallax-container {
+    margin-bottom: 3rem;
+  }
+
+  footer .text-right {
+    display: none;
   }
 }

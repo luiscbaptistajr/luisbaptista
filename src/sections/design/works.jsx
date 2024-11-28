@@ -17,7 +17,6 @@ export const Works = () => {
                     {/* <Link className='nav-link' to="/about">About</Link> */}
                     <div className="work-detail">
                         <h3>UI App Design Study</h3>
-                        <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX</small></li>
                             <li><small>Web Design</small></li>
@@ -31,7 +30,6 @@ export const Works = () => {
                     <Link to="/fido"><img className="card-img" src="./images/FIDO.jpg" alt="" /></Link>
                     <div className="work-detail">
                         <h3>UX Design Study: Page under construction</h3>
-                        <p>Role</p>
                         <ul className="specs">
                             <li><small>UX Designer</small></li>
                             <li><small>Research</small></li>
@@ -44,7 +42,6 @@ export const Works = () => {
                     <img className="card-img" src="./images/BudgetBuddy.jpg" alt="" />
                     <div className="work-detail">
                         <h3>Coming Soon</h3>
-                        <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX Design</small></li>
                             <li><small>Web Design</small></li>
@@ -58,7 +55,6 @@ export const Works = () => {
                     <img className="card-img" src="./images/PrepUp.jpg" alt="" />
                     <div className="work-detail">
                         <h3>Coming Soon</h3>
-                        <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX</small></li>
                             <li><small>Web Design</small></li>
@@ -72,7 +68,6 @@ export const Works = () => {
                     <img className="card-img" src="./images/VancouverDestination.jpg" alt="" />
                     <div className="work-detail">
                         <h3>Coming Soon</h3>
-                        <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX Designer</small></li>
                             <li><small>Web Design</small></li>
@@ -86,7 +81,6 @@ export const Works = () => {
                     <img className="card-img" src="./images/BUSKR.jpg" alt="" />
                     <div className="work-detail">
                         <h3>Coming Soon</h3>
-                        <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX</small></li>
                             <li><small>Mobile Application Design</small></li>
@@ -100,7 +94,6 @@ export const Works = () => {
                     <img className="card-img" src="./images/loba.jpg" alt="" />
                     <div className="work-detail">
                         <h3>Coming Soon</h3>
-                        <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX Designer</small></li>
                             <li><small>Mobile App Designer</small></li>

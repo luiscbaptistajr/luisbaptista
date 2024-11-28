@@ -77,22 +77,16 @@ header {
 /* Header */
 
 .special-font {
+  margin-bottom: 5rem;
   display: flex;
-  /* width: 1152px; */
-  /* height: 302px; */
   flex-direction: column;
   justify-content: center;
-  /* color: var(--Primary-02, #028a80); */
   text-shadow: 0px 15px 20px #00bfb2;
   /* Body Bigger */
-  /* font-family: "Muller Narrow Demo"; */
-  /* font-size: 242px; */
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   letter-spacing: 1rem;
-  /* line-height: 0.75; */
-  /* font-size: clamp(24px, 24vw, 24rem); */
   font-size: clamp(5rem, 2.8571rem + 8.1633vw, 10rem);
   @apply font-special text-left;
   opacity: 0.7;
@@ -113,7 +107,7 @@ header {
 
 .btn-green {
   background-color: var(--primary-accent-green-003);
-  @apply p-2 rounded-md text-xl font-bold;
+  @apply p-3 mt-5 rounded-md text-xl font-bold;
 }
 
 .btn-green:hover {
@@ -188,7 +182,8 @@ footer .bg-white {
 }
 .hero-section {
   background-color: var(--secondary-neutral-black-001);
-  @apply py-40;
+  border-bottom: 5px solid var(--primary-accent-green-002);
+  @apply py-20;
 
   &.inner {
     @apply py-5;
@@ -224,7 +219,7 @@ footer .bg-white {
 }
 .specialties-product {
   width: 100%;
-  background-color: var(--secondary-neutral-white-001);
+  /* background-color: var(--secondary-neutral-black-001); */
   border-radius: 24px;
   color: #000;
   /* height: 590px; */
@@ -237,6 +232,8 @@ footer .bg-white {
   max-width: 100%;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
+  position: relative;
+  top: 25px;
   @apply bg-no-repeat bg-center bg-cover;
 }
 
@@ -244,10 +241,13 @@ footer .bg-white {
   background-image: url("https://luiscbaptistajr.github.io/luisbaptista/images/programming-background-with-person-working-with-codes-computer.jpg");
   background-size: cover;
   max-width: 100%;
-  width: 100%;
+  /* width: 100%; */
   border-top-left-radius: 24px;
   border-bottom-left-radius: 24px;
   @apply bg-no-repeat bg-center bg-cover;
+  position: relative;
+  right: -23px;
+  z-index: 0;
 }
 
 .productMgt-img {
@@ -257,6 +257,8 @@ footer .bg-white {
   width: 100%;
   border-top-right-radius: 24px;
   border-bottom-right-radius: 24px;
+  position: relative;
+  left: -25px;
   @apply bg-no-repeat bg-center bg-cover;
 }
 
@@ -264,7 +266,10 @@ footer .bg-white {
   background-color: var(--secondary-neutral-white-001);
   border-radius: 24px;
   color: #000;
+  width: 100%;
   height: auto;
+  position: relative;
+  z-index: 2;
   @apply p-5;
 }
 
@@ -452,6 +457,19 @@ footer .bg-white {
   }
 }
 
+.section-title-h3 {
+  color: var(--Neutral-03, #fff);
+  text-align: left;
+  text-transform: uppercase;
+  /* H2 */
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 128.571% */
+  letter-spacing: 6.72px;
+}
+
 .body-text-p1 {
   color: var(--Neutral-03, #fff);
   text-align: left;
@@ -523,7 +541,8 @@ footer .bg-white {
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
-.course-detail div p {
+.course-detail div p,
+.course-detail div h3 {
   display: flex;
   padding: 0px 33px;
   flex-direction: column;
@@ -660,7 +679,30 @@ footer .bg-white {
   line-height: 16px; /* 133.333% */
 }
 
+.course-detail {
+  display: flex;
+  padding: 24px 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+
+  div p {
+    color: var(--Neutral-03, #fff);
+    /* Body Regular */
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 1.28px;
+    margin-bottom: 1rem;
+  }
+}
+
 @media (max-width: 640px) {
+  .parallax-container {
+    display: none;
+  }
   .section-content,
   .contact-section,
   .footer-link-section,
@@ -701,6 +743,10 @@ footer .bg-white {
     display: none;
   }
 
+  .footer-link-section {
+    justify-content: space-around;
+  }
+
   .hero-section {
     @apply py-10;
   }
@@ -715,5 +761,30 @@ footer .bg-white {
 
   .company-logo-container {
     display: none;
+  }
+
+  .contact-card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .specialties-product {
+    display: grid;
+  }
+
+  .productDev-img {
+    width: 100%;
+    right: inherit;
+    height: 290px;
+    top: 25px;
+    border-top-right-radius: 24px;
+  }
+
+  .productMgt-img {
+    grid-row: 1;
+    height: 290px;
+    top: 25px;
+    border-top-left-radius: 24px;
+    left: inherit;
   }
 }

@@ -10,7 +10,7 @@ export default {
   theme: {
     fontFamily: {
       'sans': ['Manrope', 'sans-serif'],
-      'special': ['Passion One', 'sans-serif']
+      'special': ['Montserrat', 'sans-serif']
     },
     screens: {
       'xsm': '420px',

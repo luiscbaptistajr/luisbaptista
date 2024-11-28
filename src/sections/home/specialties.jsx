@@ -8,7 +8,7 @@ export const Specialties = () => {
                     <div className="productDes-img"></div>
                     <div className="specialties-box">
                         <h3 className="card-title-h3">Product Design</h3>
-                        <p>Product design is one of my greatest strengths and passions. It allows me to express my creativity while channeling my deep appreciation for design interface and user experience.</p>
+                        <p>Product design is one of my greatest strengths and passions, as it allows me to seamlessly blend creativity with functionality. Through this discipline, I can express my innovative ideas while channeling my strong appreciation for intuitive design interfaces and exceptional user experiences. I take pride in crafting solutions that are not only visually appealing but also practical and user-centered, ensuring that every interaction feels natural and engaging. This synergy between creativity and empathy fuels my commitment to designing products that truly resonate with users.</p>
                     </div>
                 </div>
 
@@ -18,14 +18,14 @@ export const Specialties = () => {
                     </div>
                     <div className="specialties-box">
                         <h3 className="card-title-h3">Product Development</h3>
-                        <p>My experience building application websites, which has not only honed my strengths but also challenged me to overcome my limitations. My journey has driven me to deeply understand every aspect of the technology stack. It has also given me the opportunity to build frameworks and solutions, enabling me to innovate, adapt, and grow in diverse technical environments.</p>
+                        <p>My experience in building application websites has refined my strengths and pushed me to overcome my limitations. This journey has led me to develop a deep understanding of every aspect of the technology stack. It has also allowed me to design frameworks and solutions that foster innovation, adaptability, and growth in diverse technical environments.</p>
                     </div>
                 </div>
 
                 <div className="flex specialties-product">
                     <div className="specialties-box">
                         <h3 className="card-title-h3">Product Management</h3>
-                        <p>Lorem ipsum dolor sit amet. Qui quia minus est soluta explicabo et excepturi quis. Est galisum inventore ut amet vero aut repudiandae galisum id voluptas impedit.</p>
+                        <p>Product management is a skill I discovered and honed while leading a team and collaborating on various projects during my studies in Web and Mobile App Design and Development. Through these experiences, I developed the ability to define project goals, prioritize features, coordinate cross-functional efforts, and ensure successful project delivery. This hands-on exposure taught me how to align team efforts with user needs and business objectives, emphasizing effective communication, problem-solving, and adaptability in dynamic environments.</p>
                     </div>
                     <div className="productMgt-img">
                         {/* <img src="https://placehold.co/220" alt="" /> */}

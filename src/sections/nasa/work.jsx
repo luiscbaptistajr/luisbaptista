@@ -3,38 +3,33 @@ export const Work = () => {
       <section className="w-full">
         <div className="mx-24 my-auto grid grid-cols-2 gap-4 work-section">
             <h2 className="col-span-2 section-title-h2">UI Design Study</h2>
+            <div>
+                <img src="./images/nasa/colors.png" alt="" />
+            </div>
             <div className="work-container">
                 <div>
-                  <p className="job-year"><small>2022 - 2024</small></p>
-                  <p className="job-role">Head of Web Development</p>
-                  <p className="job-place">at Bruntwork</p>
-                  <p className="job-task">Lorem ipsum dolor sit amet. Nam quia sint et placeat odit eos vero enim. Aut culpa dolore eum perspiciatis quis hic fugit magnam non dicta consectetur hic facere velit qui neque enim non ipsum perferendis</p>
-                </div>
-                <div>
-                  <p className="job-year"><small>2011 - 2023</small></p>
-                  <p className="job-role">Full-Stack Developer</p>
-                  <p className="job-place">at ABS-CBN Corporation</p>
-                  <p className="job-task">Lorem ipsum dolor sit amet. Nam quia sint et placeat odit eos vero enim. Aut culpa dolore eum perspiciatis quis hic fugit magnam non dicta consectetur hic facere velit qui neque enim non ipsum perferendis</p>
-                </div>
-                <div>
-                  <p className="job-year"><small>2009 - 2010</small></p>
-                  <p className="job-role">Jr Graphic UI Designer</p>
-                  <p className="job-place">at MultiSoftware Asia Inc.</p>
-                  <p className="job-task">Lorem ipsum dolor sit amet. Nam quia sint et placeat odit eos vero enim. Aut culpa dolore eum perspiciatis quis hic fugit magnam non dicta consectetur hic facere velit qui neque enim non ipsum perferendis</p>
-                </div>
-                <div>
-                  <p className="job-year"><small>2008 - 2009</small></p>
-                  <p className="job-role">Technical Assistant</p> 
-                  <p className="job-role">at Jollibee Food Corporation c/o Corporate Executive Search</p>
-                  <p className="job-task">Lorem ipsum dolor sit amet. Nam quia sint et placeat odit eos vero enim. Aut culpa dolore eum perspiciatis quis hic fugit magnam non dicta consectetur hic facere velit qui neque enim non ipsum perferendis</p>
+                  {/* <p className="body-text-p2"><small>Color Palette</small></p> */}
+                  <h2 className="section-title-h2">Color Usage</h2>
+                  <p className="body-text-p1">Together, these colors create a balanced yet dynamic palette that communicates trust and professionalism (through blue tones) and boldness or passion (through red). This combination reflects qualities often associated with space exploration: intelligence, reliability, and the adventurous spirit of discovery.</p>
                 </div>
             </div>
-            <div className="company-logo-container">
-                <img className="logo-bw" src="./images/logo-bw.svg" alt="" />
-                <img className="logo-abs" src="./images/logo-abs.svg" alt="" />
-                <img className="logo-multiS" src="./images/logo-multi.svg" alt="" />
-                <img className="logo-jfc" src="./images/logo-jfc.svg" alt="" />
+
+            <div className="m-auto">
+                <img src="./images/nasa/icon001.png" alt="" />
+                <img src="./images/nasa/icon002.png" alt="" />
             </div>
+            
+            <div className="work-container">
+                <div>
+                  {/* <p className="body-text-p2"><small>Color Palette</small></p> */}
+                  <h2 className="section-title-h2">Iconography</h2>
+                  <p className="body-text-p1">These icons would look striking in the selected colors, with navy and dark blue for backgrounds or bases and the red for highlights, giving them a sharp, cohesive look that reinforces the space exploration theme.</p>
+                </div>
+            </div>
+
+            
+            
+            
           
         </div>
       </section>

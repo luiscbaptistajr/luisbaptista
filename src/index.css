@@ -185,6 +185,10 @@ footer .bg-white {
 .hero-section {
   background-color: var(--secondary-neutral-black-001);
   @apply py-40;
+
+  &.inner {
+    @apply py-5;
+  }
 }
 
 .skill-package-section {
@@ -434,6 +438,36 @@ footer .bg-white {
   font-weight: 700;
   line-height: 36px; /* 128.571% */
   letter-spacing: 6.72px;
+
+  &.inner {
+    @apply mt-24;
+  }
+}
+
+.body-text-p1 {
+  color: var(--Neutral-03, #fff);
+  text-align: left;
+  /* Body Regular */
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 1.28px;
+  margin-top: 1rem;
+}
+
+.body-text-p3 {
+  color: var(--Neutral-03, #fff);
+  text-align: left;
+  /* Body Regular */
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 1.28px;
+  margin-top: 1rem;
 }
 
 .tech-section {

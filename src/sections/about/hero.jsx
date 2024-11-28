@@ -1,7 +1,7 @@
 export const AboutHero = () => {
   return (
     <section className="w-full hero-section">
-      <div className="mx-24 my-auto grid grid-cols-6 gap-4">
+      <div className="mx-24 my-auto grid grid-cols-1 gap-4 about-intro">
           {/* <p className="special-font">ABOUT</p> */}
           <img className="profile" src="./images/profile.png" alt="" />
           <div className="col-span-5 intro-container">

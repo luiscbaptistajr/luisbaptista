@@ -661,4 +661,20 @@ footer .bg-white {
   footer .text-right {
     display: none;
   }
+
+  .hero-section {
+    @apply py-10;
+  }
+
+  .intro-container {
+    width: 100%;
+  }
+
+  .grid {
+    display: inherit;
+  }
+
+  .company-logo-container {
+    display: none;
+  }
 }

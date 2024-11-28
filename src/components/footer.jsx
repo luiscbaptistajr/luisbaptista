@@ -1,10 +1,9 @@
-import Parallax from './parallax';
+
 
 export const Footer = () => {
   return (
     // max-w-screen-2xl
     <footer>      
-      <Parallax />
       <section className="w-full">
         <div className="mx-24 my-auto contact-section">
           <h2 className="section-title-h2">GET IN TOUCH</h2>

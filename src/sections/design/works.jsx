@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export const Works = () => {
   return (
     <section className="w-full">
@@ -11,7 +13,8 @@ export const Works = () => {
             
             <div className="card-container grid grid-cols-3 gap-4">
                 <div className="card-items">
-                    <img className="card-img" src="./images/NASA.jpg" alt="" />
+                    <Link to="/nasa"><img className="card-img" src="./images/NASA.jpg" alt="" /></Link>
+                    {/* <Link className='nav-link' to="/about">About</Link> */}
                     <div className="work-detail">
                         <h3>UI App Design Study</h3>
                         <p>Role</p>

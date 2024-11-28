@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export const HomeHero = () => {
   return (
     <section className="w-full hero-section">
@@ -6,7 +8,7 @@ export const HomeHero = () => {
               <span className="first-name">luis</span><span className="last-name">baptista</span>
             </h3>
             <p className="special-font">PORTFOLIO</p>
-            <button className="btn-green">About me</button>
+            <Link className="btn-green" to="/about">About</Link>
         </div>
     </section>
   )

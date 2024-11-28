@@ -5,6 +5,7 @@ import About from '../pages/about';
 import Design from '../pages/design';
 import Development from '../pages/development';
 import Nasa from '../pages/nasa';
+import Fido from '../pages/fido';
 
 export const Redirection = () => {
   return (
@@ -17,6 +18,7 @@ export const Redirection = () => {
           <Route path="/design" element={<Design />} />
           <Route path="/development" element={<Development />} />
           <Route path="/nasa" element={<Nasa />} />
+          <Route path="/fido" element={<Fido />} />
       </Routes>
     </>
   )

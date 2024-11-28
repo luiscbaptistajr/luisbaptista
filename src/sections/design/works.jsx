@@ -4,12 +4,12 @@ export const Works = () => {
   return (
     <section className="w-full">
         <div className="mx-24 my-auto portfolio-works-section">
-            <ul className="list-blocks">
+            {/* <ul className="list-blocks">
                 <li><a href="">UI/UX</a></li>
                 <li><a href="">Graphics</a></li>
                 <li><a href="">Audio/Video Production</a></li>
                 <li><a href="">Design Challenge</a></li>
-            </ul>
+            </ul> */}
             
             <div className="card-container grid grid-cols-3 gap-4">
                 <div className="card-items">
@@ -28,9 +28,9 @@ export const Works = () => {
                 </div>
 
                 <div className="card-items">
-                    <img className="card-img" src="./images/FIDO.jpg" alt="" />
+                    <Link to="/fido"><img className="card-img" src="./images/FIDO.jpg" alt="" /></Link>
                     <div className="work-detail">
-                        <h3>UX Design Study</h3>
+                        <h3>UX Design Study: Page under construction</h3>
                         <p>Role</p>
                         <ul className="specs">
                             <li><small>UX Designer</small></li>
@@ -43,7 +43,7 @@ export const Works = () => {
                 <div className="card-items">
                     <img className="card-img" src="./images/BudgetBuddy.jpg" alt="" />
                     <div className="work-detail">
-                        <h3>Project 2 - Team Collaboration Project</h3>
+                        <h3>Coming Soon</h3>
                         <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX Design</small></li>
@@ -57,7 +57,7 @@ export const Works = () => {
                 <div className="card-items">
                     <img className="card-img" src="./images/PrepUp.jpg" alt="" />
                     <div className="work-detail">
-                        <h3>Capstone Project - Team Collaboration</h3>
+                        <h3>Coming Soon</h3>
                         <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX</small></li>
@@ -71,7 +71,7 @@ export const Works = () => {
                 <div className="card-items">
                     <img className="card-img" src="./images/VancouverDestination.jpg" alt="" />
                     <div className="work-detail">
-                        <h3>Web Design Case Study</h3>
+                        <h3>Coming Soon</h3>
                         <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX Designer</small></li>
@@ -85,7 +85,7 @@ export const Works = () => {
                 <div className="card-items">
                     <img className="card-img" src="./images/BUSKR.jpg" alt="" />
                     <div className="work-detail">
-                        <h3>App Design Challenge</h3>
+                        <h3>Coming Soon</h3>
                         <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX</small></li>
@@ -99,7 +99,7 @@ export const Works = () => {
                 <div className="card-items">
                     <img className="card-img" src="./images/loba.jpg" alt="" />
                     <div className="work-detail">
-                        <h3>App Design Challenge</h3>
+                        <h3>Coming Soon</h3>
                         <p>Role</p>
                         <ul className="specs">
                             <li><small>UI/UX Designer</small></li>

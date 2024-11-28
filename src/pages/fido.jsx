@@ -9,9 +9,9 @@ export const Fido = () => {
         <>
             <Hero />
             <Work />
-            <TechStack />
+            {/* <TechStack /> */}
             <Wireframes />
-            <Parallax />
+            {/* <Parallax /> */}
         </>
     )
   }

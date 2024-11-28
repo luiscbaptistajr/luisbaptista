@@ -625,6 +625,41 @@ footer .bg-white {
   }
 }
 
+.item-list {
+  display: flex;
+  height: auto;
+  padding-top: 50px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  flex-shrink: 0;
+  align-self: stretch;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+  }
+}
+
+.annotation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 0;
+  align-self: stretch;
+
+  color: #fff;
+  text-align: center;
+  /* material-theme/body/bold */
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+
 @media (max-width: 640px) {
   .section-content,
   .contact-section,

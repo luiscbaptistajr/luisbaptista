@@ -36,14 +36,29 @@ export const Work = () => {
 
           <div className="block-container wgrid">
             <div>
-                <img src="./images/nasa/colors.png" alt="" />
+                <img src="./images/bb/colors.png" alt="" />
             </div>
             <div className="work-container">
                 <div>
                   {/* <p className="body-text-p2"><small>Color Palette</small></p> */}
                   <h3 className="section-title-h3">Color Usage</h3>
-                  <p className="body-text-p1">Together, these colors create a balanced yet dynamic palette that communicates trust and professionalism (through blue tones) and boldness or passion (through red). This combination reflects qualities often associated with space exploration: intelligence, reliability, and the adventurous spirit of discovery.</p>
+                  <p className="body-text-p1">This colour palette aims to convey the sense of professionalism and minimalism of a financial tech-based website, but also aims to also convey to the user that it is a platform that will help you in managing your finances and expenses.</p>
                 </div>
+            </div>
+          </div>
+
+          <div className="block-container wgrid">
+            
+            <div className="work-container">
+                <div>
+                  {/* <p className="body-text-p2"><small>Color Palette</small></p> */}
+                  <h3 className="section-title-h3">Color Contrast</h3>
+                  <p className="body-text-p1">Dark blue contrasts well with soft blue for readability, while olive green pairs subtly with both for a balanced, earthy look.</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="./images/bb/contrast.png" alt="" />
             </div>
           </div>
 
@@ -51,13 +66,13 @@ export const Work = () => {
             <div className="work-container">
                 <div>
                   {/* <p className="body-text-p2"><small>Color Palette</small></p> */}
-                  <h3 className="section-title-h3">Iconography</h3>
-                  <p className="body-text-p1">These icons would look striking in the selected colors, with navy and dark blue for backgrounds or bases and the red for highlights, giving them a sharp, cohesive look that reinforces the space exploration theme.</p>
+                  <h3 className="section-title-h3">Typography</h3>
+                  {/* <p className="body-text-p1">These icons would look striking in the selected colors, with navy and dark blue for backgrounds or bases and the red for highlights, giving them a sharp, cohesive look that reinforces the space exploration theme.</p> */}
                 </div>
 
-                <div className="ss-images temp-position-2">
-                  <img src="./images/nasa/icon001.png" alt="" />
-                  <img src="./images/nasa/icon002.png" alt="" />
+                <div className="ss-images">
+                  <img src="./images/bb/typography.png" alt="" />
+                  {/* <img src="./images/nasa/icon002.png" alt="" /> */}
                 </div>
             </div>
           </div>

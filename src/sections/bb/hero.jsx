@@ -4,16 +4,16 @@ export const Hero = () => {
     <section className="w-full hero-section inner">
       <div className="template-container">
         <div>
-            <img src="./images/nasa/logo.png" alt="" />
-            <h2 className="section-title-h2 inner">UI APP Design Study</h2>
-            <p className="body-text-p1">Redesigning the NASA app aims to update its interface to better meet user needs, focusing on improving how users navigate and interact with graphics and the user interface. The goal is to create a more intuitive and engaging experience for accessing NASA’s scientific and educational resources.</p>
+            <img src="./images/bb/logo.png" alt="" />
+            <h2 className="section-title-h2 inner">Team Collaboration Project</h2>
+            <p className="body-text-p1">Managing finances can be overwhelming for individuals, families, and small groups. BudgetBuddy simplifies this process, making budgeting, expense tracking, and goal management. With personalized insights, our app empowers users to reduce stress and confidently achieve their financial goals.</p>
             <p className="body-text-p3 pt-5">
-              {/* <Link className="btn-green mr-4" to="/">Prototype</Link> */}
-              {/* <Link className="btn-green" to="/">Website</Link> */}
+              <Link className="btn-green mr-4" to="https://budget-buddy.ca">Prototype</Link>
+              <Link className="btn-green" to="https://drive.google.com/file/d/1MH77n_kgjjLJ5X5eJzlX0ua73PCHTzto/view">Project Proposal</Link>
             </p>
         </div>
         <div>
-          <img src="./images/nasa/hero-image.png" alt="" />
+          <img src="./images/bb/hero-image.png" alt="" />
         </div>
       </div>
     </section>

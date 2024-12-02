@@ -6,7 +6,7 @@ import Parallax from '../sections/bb/parallax';
 
 import '../sections/bb/styles.css';
 
-export const Nasa = () => {
+export const Budgetbuddy = () => {
     return (
         <>
             <Hero />
@@ -18,4 +18,4 @@ export const Nasa = () => {
     )
   }
   
-export default Nasa;
+export default Budgetbuddy;

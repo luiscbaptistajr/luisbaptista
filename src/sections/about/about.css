@@ -1,0 +1,272 @@
+.section-title-h2 {
+  margin-bottom: 24px;
+}
+
+/* HERO SECTION */
+
+.profile {
+  margin: 0 auto 50px;
+}
+
+.hero-section .about-intro {
+  @apply mx-10 my-auto;
+}
+
+/* WORK SECTION */
+
+.work-section {
+  @apply mx-10 my-10;
+}
+
+.company-logo-container {
+  display: none;
+}
+
+.work-container {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+
+  border-radius: 24px;
+  border: 1px solid var(--Primary-03, #003b49);
+  background: var(--Neutral-07, rgba(43, 43, 43, 0.5));
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.work-container p {
+  font-size: 16px;
+  font-style: normal;
+  color: var(--Neutral-03, #fff);
+  align-self: stretch;
+}
+
+.job-year {
+  /* Body Regular */
+
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 1.28px;
+}
+
+.job-role,
+.job-place {
+  /* Body Bold */
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+.job-task {
+  /* Body Regular */
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 1.28px;
+}
+
+.logo-bw {
+  display: flex;
+  width: 281px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  /* gap: 12px; */
+  position: absolute;
+  left: 65px;
+  top: 0.5px;
+}
+
+.logo-abs {
+  display: inline-flex;
+  padding: 12px;
+  align-items: flex-start;
+  /* gap: 12px; */
+
+  position: absolute;
+  right: 92.625px;
+  top: 167px;
+}
+
+.logo-multiS {
+  display: inline-flex;
+  padding: 12px;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  left: 65px;
+  bottom: 237px;
+}
+
+.logo-jfc {
+  display: inline-flex;
+  padding: 12px;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  right: 88.625px;
+  bottom: 70px;
+}
+
+/* TECH STACK */
+
+.tech-section {
+  display: flex;
+  flex-direction: column;
+  /* align-items: left; */
+  gap: 34px;
+  flex: 1 0 0;
+  padding-bottom: 50px;
+  @apply mx-10;
+}
+
+.tech-skill-container {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 14px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.skill-container {
+  display: flex;
+  padding: 12px;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: 12px;
+  background: var(--Primary-03, #003b49);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* .education-section {
+    @apply grid grid-cols-2 gap-4;
+  } */
+
+.education-section {
+  /* display: grid; */
+  @apply grid grid-cols-1 mx-10;
+
+  .course-detail {
+    display: flex;
+    padding: 24px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    border-radius: 24px;
+    border: 1px solid var(--Primary-03, #003b49);
+    background: var(--Neutral-07, rgba(43, 43, 43, 0.5));
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .course-detail.langara {
+    margin-bottom: 24px;
+    @apply col-start-2;
+  }
+}
+
+.course-detail div p,
+.course-detail div h3 {
+  display: flex;
+  padding: 0px 33px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  line-height: 1.5;
+}
+
+.school-logo {
+  /* position: inherit; */
+
+  &.langara {
+    @apply col-start-1;
+
+    img {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-section .about-intro {
+    @apply mx-24 my-auto;
+  }
+
+  .work-section,
+  .tech-section,
+  .education-section {
+    @apply mx-24 my-auto;
+  }
+
+  .company-logo-container {
+    display: flex;
+    width: 493px;
+    height: 663px;
+    position: relative;
+    right: 0;
+    top: 61px;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .company-logo-container img {
+    border-radius: 12px;
+    /* background: var(--Neutral-03, #fff); */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    gap: 12px;
+  }
+
+  .work-section {
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+  }
+
+  .tech-section {
+    padding: 50px 0px;
+  }
+
+  .education-section {
+    @apply grid grid-cols-2 gap-4;
+
+    .course-detail {
+      padding: 24px 10px;
+
+      img {
+        display: none;
+      }
+    }
+  }
+
+  .school-logo {
+    height: 96px;
+    align-self: stretch;
+
+    /* width: 493px; */
+    /* height: 663px; */
+    position: relative;
+    right: 0;
+    top: 140px;
+    left: 0;
+    margin: 0 auto;
+
+    &.langara {
+      left: 150px;
+      @apply col-start-1 row-start-2;
+    }
+
+    &.adnu {
+      left: -200px;
+    }
+
+    &.adnu img {
+      width: 184px;
+      height: 184px;
+      flex: 1 0 0;
+      border-radius: 240px;
+      border: 2px solid var(--Neutral-03, #fff);
+      background: lightgray 50% / contain no-repeat;
+    }
+  }
+}

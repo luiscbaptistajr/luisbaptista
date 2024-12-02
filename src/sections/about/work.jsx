@@ -1,7 +1,7 @@
 export const Work = () => {
     return (
       <section className="w-full">
-        <div className="mx-24 my-auto grid grid-cols-2 gap-4 work-section">
+        <div className="grid grid-cols-2 gap-4 work-section">
             <h2 className="col-span-2 section-title-h2">Work Affiliations</h2>
             <div className="work-container">
                 <div>

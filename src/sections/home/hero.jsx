@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export const HomeHero = () => {
   return (
     <section className="w-full hero-section">
-        <div className="mx-24 my-auto">
+        <div className='home-intro'>
             <h3 className="title-heading hero-head">
               <span className="first-name">Welcome</span> <span className="last-name">to my</span>
             </h3>

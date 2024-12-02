@@ -1,7 +1,7 @@
 export const TechStack = () => {
     return (
       <section className="w-full">
-        <div className="mx-24 my-auto tech-section">
+        <div className="tech-section">
             <h2 className="section-title-h2">TECH STACK</h2>
             <div className="flex flex-row tech-skill-container">
                 <div className="skill-container">

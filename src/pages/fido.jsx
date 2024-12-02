@@ -4,6 +4,8 @@ import TechStack from "../sections/fido/techStack";
 import Wireframes from "../sections/fido/wireframes";
 import Parallax from '../sections/fido/parallax';
 
+import '../sections/fido/styles.css';
+
 export const Fido = () => {
     return (
         <>

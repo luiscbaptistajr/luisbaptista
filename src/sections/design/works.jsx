@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export const Works = () => {
   return (
     <section className="w-full">
-        <div className="mx-24 my-auto portfolio-works-section">
+        <div className="portfolio-works-section">
             {/* <ul className="list-blocks">
                 <li><a href="">UI/UX</a></li>
                 <li><a href="">Graphics</a></li>
@@ -11,7 +11,7 @@ export const Works = () => {
                 <li><a href="">Design Challenge</a></li>
             </ul> */}
             
-            <div className="card-container grid grid-cols-3 gap-4">
+            <div className="card-container">
                 <div className="card-items">
                     <Link to="/nasa"><img className="card-img" src="./images/NASA.jpg" alt="" /></Link>
                     {/* <Link className='nav-link' to="/about">About</Link> */}

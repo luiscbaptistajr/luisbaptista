@@ -1,0 +1,55 @@
+.template-container {
+  @apply mx-10;
+}
+
+.work-container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ss-images {
+  @apply grid grid-cols-1 gap-4;
+}
+
+.gallery-bg {
+  background: #fff;
+}
+
+.block-container {
+  margin-bottom: 5rem;
+}
+
+.text-container {
+  margin: 54px 0;
+}
+
+@media (min-width: 1024px) {
+  .template-container {
+    @apply mx-24 my-auto grid grid-cols-2 gap-4;
+  }
+
+  .work-section,
+  .tech-section {
+    @apply mx-24 my-auto;
+  }
+
+  .ss-images {
+    @apply m-auto grid gap-4;
+  }
+
+  .temp-position-2 {
+    @apply grid-cols-2;
+  }
+  .temp-position-3 {
+    @apply grid-cols-3;
+  }
+
+  .block-container {
+    &.wgrid {
+      @apply grid grid-cols-2 gap-4;
+    }
+    &.ngrid {
+      display: inherit;
+    }
+  }
+}

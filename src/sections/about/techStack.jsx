@@ -11,14 +11,43 @@ export const TechStack = () => {
                     <p>Design Tool</p>
                   </div>
                 </div>
+
                 <div className="skill-container">
                   <img src="./images/adobe-premiere.svg" alt="" />
-                  <img src="./images/adobe-photoshop.svg" alt="" />
-                  <img src="./images/adobe-indesign.svg" alt="" />
-                  <img src="./images/adobe-illustrator.svg" alt="" />
-                  <img src="./images/adobe-after-effect.svg" alt="" />
                   <div>
-                    <h4>Adobe Products</h4>
+                    <h4>Adobe Premiere</h4>
+                    <p>Design Tool</p>
+                  </div>
+                </div>
+
+                <div className="skill-container">
+                  <img src="./images/adobe-photoshop.svg" alt="" />
+                  <div>
+                    <h4>Adobe Photoshop</h4>
+                    <p>Design Tool</p>
+                  </div>
+                </div>
+
+                <div className="skill-container">
+                  <img src="./images/adobe-indesign.svg" alt="" />
+                  <div>
+                    <h4>Adobe InDesign</h4>
+                    <p>Design Tool</p>
+                  </div>
+                </div>
+
+                <div className="skill-container">
+                <img src="./images/adobe-after-effects.svg" alt="" />
+                  <div>
+                    <h4>Adobe After Effects</h4>
+                    <p>Design Tool</p>
+                  </div>
+                </div>
+
+                <div className="skill-container">
+                  <img src="./images/adobe-illustrator.svg" alt="" />
+                  <div>
+                    <h4>Adobe Illustrator</h4>
                     <p>Design Tool</p>
                   </div>
                 </div>

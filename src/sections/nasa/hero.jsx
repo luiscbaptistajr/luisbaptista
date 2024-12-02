@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 export const Hero = () => {
   return (
     <section className="w-full hero-section inner">
-      <div className="mx-24 my-auto grid grid-cols-2 gap-4">
+      <div className="template-container">
         <div>
             <img src="./images/nasa/logo.png" alt="" />
             <h2 className="section-title-h2 inner">UI APP Design Study</h2>

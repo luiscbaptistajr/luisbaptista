@@ -4,6 +4,8 @@ import TechStack from "../sections/nasa/techStack";
 import Wireframes from "../sections/nasa/wireframes";
 import Parallax from '../sections/nasa/parallax';
 
+import '../sections/nasa/styles.css';
+
 export const Nasa = () => {
     return (
         <>

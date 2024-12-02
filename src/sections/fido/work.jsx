@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 export const Work = () => {
     return (
       <section className="w-full">
-        <div className="mx-24 my-auto work-section">
+        <div className="work-section">
             <h2 className="col-span-2 section-title-h2">UX Design Study</h2>
-
-            <div className="grid grid-cols-2 gap-4 work-section">
+            
+            <div className="block-container wgrid">
               <div>
-              <Link target="_blank" to="https://s3-alpha-sig.figma.com/img/fd4c/90ae/5aef6546a74a503c3c8fb49e10627014?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QSJ2gQrcRgEBBJbR-neON33~7GP0QtHSXYur2Jv6Vq6iNdlL-p9MF0a-9U59OpuoshBVr2F6fs9Ih8asd48GIqLiXn9VLtPnFcjGCjPiVogG9TYG7h-zf2LT3W3PbEX12WxWmmaopZZfvnHW20jA5pbs5pDFYRGzOl~riPfUymeXJ42ty4PT0BvOxuNS2ig9Z2vrUr8ss2iTyPFPma3L9FETLvEWXMy5QoAJizRXdjnkNVlZqangcn6fMz6oXsEkVZVoJOh7GuWfCkqHMuaIU5oObIgBPcc8CVJ7mzoSKtroVCflmzLPPRMjMsPEN6herS8mwQ8bTcYjxg5uArGNzA__"><img src="./images/fido/existing-userflow.svg" alt="" /></Link>
+                <Link target="_blank" to="https://s3-alpha-sig.figma.com/img/fd4c/90ae/5aef6546a74a503c3c8fb49e10627014?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QSJ2gQrcRgEBBJbR-neON33~7GP0QtHSXYur2Jv6Vq6iNdlL-p9MF0a-9U59OpuoshBVr2F6fs9Ih8asd48GIqLiXn9VLtPnFcjGCjPiVogG9TYG7h-zf2LT3W3PbEX12WxWmmaopZZfvnHW20jA5pbs5pDFYRGzOl~riPfUymeXJ42ty4PT0BvOxuNS2ig9Z2vrUr8ss2iTyPFPma3L9FETLvEWXMy5QoAJizRXdjnkNVlZqangcn6fMz6oXsEkVZVoJOh7GuWfCkqHMuaIU5oObIgBPcc8CVJ7mzoSKtroVCflmzLPPRMjMsPEN6herS8mwQ8bTcYjxg5uArGNzA__"><img src="./images/fido/existing-userflow.svg" alt="" /></Link>
               </div>
               <div className="work-container">
                   <div>

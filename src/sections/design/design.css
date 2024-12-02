@@ -1,0 +1,128 @@
+.portfolio-works-section {
+  display: inherit;
+  height: auto;
+  padding: 24px 10px 50px;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.card-container {
+  display: inherit;
+  padding: 24px 0px;
+
+  gap: 24px;
+}
+
+.card-items {
+  width: 100%;
+  gap: 12px;
+  border-radius: 12px;
+  background: var(--Neutral-07, rgba(43, 43, 43, 0.5));
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+
+  margin-bottom: 24px;
+
+  .card-img {
+    max-width: 100%;
+    width: 100%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+
+    &.not-ready {
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+    }
+  }
+}
+
+.work-detail {
+  padding: 24px;
+  line-height: 1.5;
+  @apply gap-4;
+}
+
+.specs {
+  display: flex;
+  margin: 0;
+  margin-top: 10px;
+
+  li {
+    display: flex;
+    margin-right: 8px;
+    border-radius: 7.29px;
+    background: var(--Neutral-05, #414141);
+    height: 30px;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+.item-list {
+  display: flex;
+  height: auto;
+  padding-top: 50px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  flex-shrink: 0;
+  align-self: stretch;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+  }
+}
+
+.annotation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 0;
+  align-self: stretch;
+
+  color: #fff;
+  text-align: center;
+  /* material-theme/body/bold */
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+
+.course-detail {
+  display: flex;
+  padding: 24px 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+
+  div p {
+    color: var(--Neutral-03, #fff);
+    /* Body Regular */
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 1.28px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio-works-section {
+    @apply mx-24 my-auto;
+  }
+
+  .card-container {
+    @apply grid grid-cols-3 gap-4;
+  }
+}

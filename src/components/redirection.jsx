@@ -7,6 +7,7 @@ import Development from '../pages/development';
 import Nasa from '../pages/nasa';
 import Fido from '../pages/fido';
 import BudgetBuddy from '../pages/budgetbuddy';
+import PrepUp from '../pages/prep';
 
 export const Redirection = () => {
   return (
@@ -21,6 +22,7 @@ export const Redirection = () => {
           <Route path="/nasa" element={<Nasa />} />
           <Route path="/fido" element={<Fido />} />
           <Route path="/bb" element={<BudgetBuddy />} />
+          <Route path="/prep" element={<PrepUp />} />
       </Routes>
     </>
   )

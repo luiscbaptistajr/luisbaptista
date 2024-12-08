@@ -1,10 +1,9 @@
-import featureBG from "/images/bb/mockup.png";
+import featureBG from "/images/nasa/mockup.png";
 
 export const Parallax = () => {
   const imgSrc = {
-    backgroundRepeat: "no-repeat",
     backgroundSize: "contain",
-    backgroundColor: "#5E8DD3",
+    backgroundColor: "#1A5DAC",
     backgroundImage: `url(${featureBG})`
   };
   return (

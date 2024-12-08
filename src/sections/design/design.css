@@ -1,7 +1,7 @@
 .portfolio-works-section {
   display: inherit;
   height: auto;
-  padding: 24px 10px 50px;
+  padding: 24px 24px 50px;
   flex-direction: column;
   gap: 34px;
 }
@@ -119,6 +119,8 @@
 
 @media (min-width: 1024px) {
   .portfolio-works-section {
+    padding-left: 0;
+    padding-right: 0;
     @apply mx-24 my-auto;
   }
 

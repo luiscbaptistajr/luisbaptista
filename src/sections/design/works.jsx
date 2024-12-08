@@ -52,13 +52,13 @@ export const Works = () => {
                 </div>
 
                 <div className="card-items">
-                    <img className="card-img not-ready" src="./images/PrepUp.jpg" alt="" />
+                    <Link to="/prep" target="_blank"><img className="card-img not-ready" src="./images/PrepUp.jpg" alt="" /></Link>
                     <div className="work-detail">
-                        <h3>Coming Soon</h3>
+                        <h3>Capstone Project</h3>
                         <ul className="specs">
                             <li><small>UI/UX</small></li>
                             <li><small>Web Design</small></li>
-                            <li><small>Project Manager</small></li>
+                            <li><small>Product Management</small></li>
                         </ul>
                     </div>
                     

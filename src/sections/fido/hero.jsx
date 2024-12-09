@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom';
 export const Hero = () => {
+  const inlineStyle = {
+    borderRadius: '0',
+    color: '#7592F8'
+  };
   return (
-    <section className="w-full hero-section inner">
+    <section className="w-full hero-section inner gallery-bg bg-fido" style={inlineStyle}>
       <div className="template-container">
         <div>
             <img src="./images/fido/logo.png" alt="" />

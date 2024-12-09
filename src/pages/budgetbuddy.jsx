@@ -12,7 +12,7 @@ export const Budgetbuddy = () => {
             <Hero />
             <Work />
             <TechStack />
-            <Wireframes />
+            {/* <Wireframes /> */}
             <Parallax />
         </>
     )

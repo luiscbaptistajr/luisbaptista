@@ -13,6 +13,10 @@
 
 .gallery-bg {
   background: #fff;
+
+  &.bg-fido {
+    background: #5b6381;
+  }
 }
 
 .block-container {

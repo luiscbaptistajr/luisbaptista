@@ -13,6 +13,10 @@
 
 .gallery-bg {
   background: #fff;
+
+  &.bg-nasa {
+    background: #1857a0;
+  }
 }
 
 .block-container {

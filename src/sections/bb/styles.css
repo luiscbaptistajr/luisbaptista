@@ -13,6 +13,10 @@
 
 .gallery-bg {
   background: #fff;
+
+  &.bg-bb {
+    background: #001e30;
+  }
 }
 
 .block-container {

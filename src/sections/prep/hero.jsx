@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 export const Hero = () => {
   const inlineStyle = {
-    backgroundColor: "#FFEAD9",
+    borderRadius: '0',
     color: '#7592F8'
   };
   return (
-    <section className="w-full hero-section inner" style={inlineStyle}>
+    <section className="w-full hero-section inner gallery-bg pu-lightly" style={inlineStyle}>
       <div className="template-container">
         <div>
             <img src="./images/pu/logo.png" alt="" />

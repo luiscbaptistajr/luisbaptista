@@ -12,8 +12,8 @@ export const Hero = () => {
             <h2 className="section-title-h2 inner" style={inlineStyle}>Capstone Project</h2>
             <p className="body-text-p1" style={inlineStyle}>PrepUp is a mobile app that prepares you for interviews in your field of study. The app offers a wide range of interview questions with analytical feedback, AI-generated questions tailored to users’ preferred job roles, and access to text-based questions through a STAR Master tool for practice on the go. PrepUp empowers job seekers to prepare smarter, faster and better.</p>
             <p className="body-text-p3 pt-5">
-              {/* <Link className="btn-green mr-4" to="/">Prototype</Link> */}
-              {/* <Link className="btn-green" to="/">Website</Link> */}
+              <Link className="btn-green mr-4" to="https://drive.google.com/file/d/1QCQTDkHyMXtI5-XEHc2-dLPnI6iRFnQI/view" target="_blank">Project Manual</Link>
+              <Link className="btn-green" to="https://prepup.ca" target="_blank">Website</Link>
             </p>
         </div>
         <div>

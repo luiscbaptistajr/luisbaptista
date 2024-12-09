@@ -7,7 +7,7 @@ export const Footer = () => {
       <section className="w-full">
         <div className="mx-24 my-auto contact-section">
           <h2 className="section-title-h2">GET IN TOUCH</h2>
-          <p className="display-text text-center px-96 mb-24">Let's do something amazing! Feel free to get in touch through my LinkedIn. <br />I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+          <p className="display-text text-center px-80 mb-24">Let's do something amazing! Feel free to get in touch through my LinkedIn. <br />I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
           <div className="grid content-stretch">
             {/* <div className="contact-card col-start-2 self-center text-center align-center">
               <img src="./images/mailbox.png" alt="Email Address" />

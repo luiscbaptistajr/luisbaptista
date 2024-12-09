@@ -13,7 +13,7 @@ export const Works = () => {
             
             <div className="card-container">
                 <div className="card-items">
-                    <Link to="/nasa"><img className="card-img" src="./images/NASA.jpg" alt="" /></Link>
+                    <Link to="/nasa" target="_blank"><img className="card-img" src="./images/NASA.jpg" alt="" /></Link>
                     {/* <Link className='nav-link' to="/about">About</Link> */}
                     <div className="work-detail">
                         <h3>UI App Design Study</h3>
@@ -27,7 +27,7 @@ export const Works = () => {
                 </div>
 
                 <div className="card-items">
-                    <Link to="/fido"><img className="card-img" src="./images/FIDO.jpg" alt="" /></Link>
+                    <Link to="/fido" target="_blank"><img className="card-img" src="./images/FIDO.jpg" alt="" /></Link>
                     <div className="work-detail">
                         <h3>UX Design Study: Page under construction</h3>
                         <ul className="specs">
@@ -52,7 +52,7 @@ export const Works = () => {
                 </div>
 
                 <div className="card-items">
-                    <Link to="/prep" target="_blank"><img className="card-img not-ready" src="./images/PrepUp.jpg" alt="" /></Link>
+                    <Link to="/prep" target="_blank"><img className="card-img" src="./images/PrepUp.jpg" alt="" /></Link>
                     <div className="work-detail">
                         <h3>Capstone Project</h3>
                         <ul className="specs">

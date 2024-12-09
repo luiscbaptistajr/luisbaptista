@@ -13,6 +13,16 @@
 
 .gallery-bg {
   background: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  &.pu-lightly {
+    background: #ffead9;
+  }
+
+  &.pu-dark {
+    background: #e7be9a;
+  }
 }
 
 .block-container {

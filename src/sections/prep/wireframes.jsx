@@ -3,44 +3,50 @@ export const Wireframes = () => {
       <section className="w-full pb-24">
         {/* mx-24 my-auto grid grid-cols-2 gap-24  */}
         <div className="work-section">
-          <h2 className="col-span-2 section-title-h2">Old Design</h2>
+          {/* <h2 className="col-span-2 section-title-h2">Old Design</h2>
 
           <div className="block-container wgrid temp-position-2">
             <img src="./images/nasa/current-001.jpg" alt="" />
             <img src="./images/nasa/current-002.jpg" alt="" />
-          </div>
+          </div> */}
           
          
           
-          <h2 className="col-span-2 section-title-h2">New Design</h2>
+          <h2 className="col-span-2 section-title-h2">Wireframes</h2>
 
           <div className="block-container wgrid temp-position-2">
             
-            <div className="gallery-bg">
-              <img src="./images/nasa/new-001.png" alt="" />
+            <div className="gallery-bg pu-dark">
+              <img src="./images/pu/lowfidelity.png" alt="" />
             </div>
            
             <div className="text-container work-container">
-              <h3 className="section-title-h3">Home/Search</h3>
-              <p className="body-text-p1">The new layout pages simplify the navigation bar with clear, concise labels. It has use a large, impactful hero image or video. This section can also include quick links to major categories or featured content.
+              <h3 className="section-title-h3">Low-Fidelity</h3>
+              <p className="body-text-p1">Creating a low-fidelity design for PrepUp involves developing the initial wireframes and user interface (UI) layouts that define the structure and functionality of the app without getting into detailed visuals or style elements. This process allows for rapid prototyping, focusing on user flow and the core features of the app.
               </p>
-              <p className="body-text-p1">Each category should have its own section with a clear heading, icon, and content. Use cards or tiles to present key information or links within each category, maintaining consistent spacing and alignment.</p>
-              <p className="body-text-p1">The new layout also prioritize content hierarchy with a focus on readability. Utilize concise paragraphs, and headings to organize information logically.</p>
-              <p className="body-text-p1">The bottom navigation link has also been redesigned to emphasize its features and ensure visibility for users with physical impairments.</p>
             </div>
             
           </div>
 
           <div className="block-container wgrid temp-position-2">
             <div className="text-container work-container">
-              <h3 className="section-title-h3">Inner Pages</h3>
-              <p className="body-text-p1">Redesigning NASA's app pages with a focus on more spacing, clear identification of categories, and a minimalist layout involves addressing several UI design challenges. The goal is to create a clean, intuitive interface that enhances user interaction while effectively presenting scientific information data.</p>
-              <p className="body-text-p1">Added more spacing helps to avoid clutter and makes the content more digestible. This involves strategic use of white space to separate different sections and elements. </p>
+              <h3 className="section-title-h3">High Fidelity</h3>
+              <p className="body-text-p1">This stage will involve adding the visual styling, color palette, typography (such as Maven Pro and Muli), and final UI elements, but the low-fidelity wireframes provide the foundational layout and structure that guides the detailed design work.</p>
             </div>
-            <div className="gallery-bg">
-              <img src="./images/nasa/new-002.png" alt="" />
+            <div className="gallery-bg pu-dark">
+              <img src="./images/pu/highfidelity.png" alt="" />
             </div>
           </div>
+
+          <div className="block-container ngrid">
+              <div className="work-container">
+                  <div>
+                    {/* <p className="body-text-p2"><small>Color Palette</small></p> */}
+                    <h3 className="section-title-h3">Visual Design</h3>
+                    <p className="body-text-p1">By keeping the designs simple and focused on functionality, We was able to quickly iterate on ideas and ensure that the app's interface would be intuitive and user-friendly before diving into detailed visual design.</p>
+                  </div>
+              </div>
+            </div>
           
 
         </div>

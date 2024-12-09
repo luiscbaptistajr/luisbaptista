@@ -29,7 +29,7 @@ export const Works = () => {
                 <div className="card-items">
                     <Link to="/fido" target="_blank"><img className="card-img" src="./images/FIDO.jpg" alt="" /></Link>
                     <div className="work-detail">
-                        <h3>UX Design Study: Page under construction</h3>
+                        <h3>UX Design Study</h3>
                         <ul className="specs">
                             <li><small>UX Design</small></li>
                             <li><small>UX Research</small></li>
@@ -41,7 +41,7 @@ export const Works = () => {
                 <div className="card-items">
                     <Link to="/bb" target="_blank"><img className="card-img" src="./images/BudgetBuddy.jpg" alt="" /></Link>
                     <div className="work-detail">
-                        <h3><Link to="https://drive.google.com/file/d/1MH77n_kgjjLJ5X5eJzlX0ua73PCHTzto/view" target="_blank">B2B2C Project - Coming Soon</Link></h3>
+                        <h3><Link to="https://drive.google.com/file/d/1MH77n_kgjjLJ5X5eJzlX0ua73PCHTzto/view" target="_blank">B2B2C SASS Project </Link></h3>
                         <ul className="specs">
                             <li><small>UI/UX Design</small></li>
                             <li><small>Web Design</small></li>

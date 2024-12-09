@@ -208,7 +208,7 @@ footer .bg-white {
 
 .specialties-section {
   height: auto;
-  padding-top: 5rem;
+  padding-top: 1rem;
   @apply grid grid-rows-1 grid-flow-col gap-10;
 }
 
@@ -487,5 +487,11 @@ footer .bg-white {
 @media (min-width: 1024px) {
   .hero-section .home-intro {
     @apply mx-24 my-auto;
+  }
+
+  .specialties-section {
+    height: auto;
+    padding-top: 5rem;
+    @apply grid grid-rows-1 grid-flow-col gap-10;
   }
 }

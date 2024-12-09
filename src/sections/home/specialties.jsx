@@ -1,7 +1,7 @@
 export const Specialties = () => {
   return (
     <section className="w-full">
-        <div className="mx-24 my-auto skill-package-section section-content">
+        <div className="mx-5 my-auto skill-package-section section-content lg:mx-24">
             <h2 className="section-title-h2">Specialties</h2>
             <div className="specialties-section">
                 <div className="row-span-2 specialties-product">

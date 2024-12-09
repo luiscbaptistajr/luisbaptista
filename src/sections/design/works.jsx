@@ -18,7 +18,7 @@ export const Works = () => {
                     <div className="work-detail">
                         <h3>UI App Design Study</h3>
                         <ul className="specs">
-                            <li><small>UI/UX</small></li>
+                            <li><small>UI/UX Design</small></li>
                             <li><small>Web Design</small></li>
                             <li><small>Project Management</small></li>
                         </ul>
@@ -31,8 +31,8 @@ export const Works = () => {
                     <div className="work-detail">
                         <h3>UX Design Study: Page under construction</h3>
                         <ul className="specs">
-                            <li><small>UX Designer</small></li>
-                            <li><small>Research</small></li>
+                            <li><small>UX Design</small></li>
+                            <li><small>UX Research</small></li>
                         </ul>
                     </div>
                     

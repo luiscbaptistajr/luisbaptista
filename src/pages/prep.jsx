@@ -6,7 +6,7 @@ import Parallax from '../sections/prep/parallax';
 
 import '../sections/prep/styles.css';
 
-export const Nasa = () => {
+export const Prep = () => {
     return (
         <>
             <Hero />
@@ -18,4 +18,4 @@ export const Nasa = () => {
     )
   }
   
-export default Nasa;
+export default Prep;

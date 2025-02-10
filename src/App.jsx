@@ -36,8 +36,8 @@ const App = () => {
                 <nav className="navbar">
                   {/* <Link className='nav-link' to="/home">Home</Link> */}
                   <Link className='nav-link' to="/about">About</Link>
-                  <Link className='nav-link' to="/design">Design</Link>
-                  <Link className='nav-link' to="/development">Development</Link>
+                  <Link className='nav-link' to="/design">UX/UI Design</Link>
+                  <Link className='nav-link' to="/development">Dev Works</Link>
                 </nav>
               </div>
             </div>

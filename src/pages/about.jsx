@@ -9,8 +9,8 @@ export const About = () => {
     return (
         <>
             <Hero />
-            <Work />
             <TechStack />
+            <Work />
             <Education />
         </>
     )

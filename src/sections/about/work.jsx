@@ -9,26 +9,24 @@ export const Work = () => {
                   <p className="job-role">Head of Web Development</p>
                   <p className="job-place">at Bruntwork</p>
                   <p className="job-task body-text-p1">
-                    <ol>
-                      <li>Designed and developed responsive websites.</li>
-                      <li>Handle client management for web development projects.</li>
-                      <li>Responsible for team management and internal monitoring of individual developers’ performance.</li>
-                      <li>Train team members to further improve skills, and adapt to new technologies (innovation).</li>
-                      <li>Manage sales calls for web development leads.</li>
-                    </ol>
+                    <ul>
+                      <li>Achieved 95% to improve all website’s performance in Google Search rankings. The issue was causing slow page loads. It was resolved by identifying and addressing unimplemented latest security measure and outdated plugins.</li>
+                      <li>Achieved a 99% improvement in workflow efficiency by addressing process inefficiencies and bottlenecks. The lack of flexibility in previous workflows led to delays, so I implemented a customized agile methodology to optimize operations and enhance team productivity.</li>
+                      <li>Improved +15% project efficiency and team productivity by addressing task overload and unclear responsibilities. These challenges were causing delays, so I delegated tasks strategically based on team strengths, ensuring clear expectations and balanced workloads.</li>
+                    </ul>
                   </p>
                 </div>
                 <div>
                   <p className="job-year"><small>2011 - 2023</small></p>
-                  <p className="job-role">Full-Stack Developer</p>
+                  <p className="job-role">Software Developer</p>
                   <p className="job-place">at ABS-CBN Corporation</p>
                   <p className="job-task body-text-p1">
-                    <ol>
-                      <li>Collaborated with cross-functional teams like architecture, project management, and development teams to understand feature roadmaps and technical requirements, ensuring alignment across teams. </li>
-                      <li>Developed and provided software solutions including third party API integration, frontend and backend implementation, server setup/maintenance and project deployment.</li>
-                      <li>Managed customer data and analytics, providing insights to inform decision-making and drive product enhancements.</li>
+                    <ul>
+                      <li>Led Front-End Development to optimize user experience to 95% across devices by addressing inconsistent website performance. Developed responsive websites for both desktop and mobile, ensuring seamless functionality and design on all platforms.</li>
+                      <li>Led as Subject Matter Expert (SME) for Single-Sign-On (SSO) Project to enhance user experience by ensuring seamless Single Sign-On (SSO) integration, solving the problem of inconsistent authentication across platforms. This streamlined access, improving ease of use and efficiency.</li>
+                      <li>Assigned as Technical PM for Single-Sign-On (SSO) Project to ensure timely project completion by addressing task misalignment with project goals. Delegated technical tasks effectively to internal/vendors developers, ensuring clear alignment with project timelines, available resources, and business objectives.</li>
                       <li>Implemented a structured feedback loop for a team of 10 developers, enabling real-time performance assessments.</li>
-                    </ol>
+                    </ul>
                   </p>
                 </div>
                 <div>

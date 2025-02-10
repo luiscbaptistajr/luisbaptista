@@ -24,7 +24,7 @@ const Navbar = ({ navOpen }) => {
           className: 'nav-link'
         },
         {
-          label: 'Development',
+          label: 'Dev Works',
           link: '/development',
           className: 'nav-link'
         }

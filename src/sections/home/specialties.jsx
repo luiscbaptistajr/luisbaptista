@@ -16,7 +16,7 @@ export const Specialties = () => {
                 </div>
                 <div className="row-span-2 specialties-product">
                     {/* <div className="productDes-img"></div> */}
-                    <div className="productDev-img"></div>
+                    <div className="productDes-img"></div>
                     <div className="specialties-box">
                         <h3 className="card-title-h3"><Link to="/design">UX/UI Design</Link></h3>
                         {/* <p>Product design is one of my greatest strengths and passions, as it allows me to seamlessly blend creativity with functionality. Through this discipline, I can express my innovative ideas while channeling my strong appreciation for intuitive design interfaces and exceptional user experiences. I take pride in crafting solutions that are not only visually appealing but also practical and user-centered, ensuring that every interaction feels natural and engaging. This synergy between creativity and empathy fuels my commitment to designing products that truly resonate with users.&nbsp;<Link className="first-name" to="/design">View Projects</Link></p> */}

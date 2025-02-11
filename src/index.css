@@ -475,12 +475,18 @@ footer .bg-white {
     display: grid;
   }
 
-  .productDev-img {
+  .productDev-img,
+  .productDes-img {
     width: 100%;
     right: inherit;
     height: 290px;
     top: 25px;
     border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
   }
 
   .productMgt-img {

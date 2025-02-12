@@ -123,7 +123,7 @@ export const Works = () => {
                 </div>
 
                 <div className="card-items">
-                    <Link to="https://luiscbaptistajr.github.io/portfolio/one-run/index.html" target="_blank"><img className="card-img" src="./images/web/OneRun.jpg" alt="" /></Link>
+                    <Link to="https://luiscbaptistajr.github.io/portfolio/one-run/index.html" target="_blank"><img className="card-img" src="./images/web/ONERun.jpg" alt="" /></Link>
                     <div className="work-detail">
                         <h3><Link to="https://luiscbaptistajr.github.io/portfolio/one-run/index.html" target="_blank">One Run PH - Promo Site</Link></h3>
                         <ul className="specs">

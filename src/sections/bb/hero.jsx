@@ -13,7 +13,7 @@ export const Hero = () => {
             <p className="body-text-p1">Managing finances can be overwhelming for individuals, families, and small groups. BudgetBuddy simplifies this process, making budgeting, expense tracking, and goal management. With personalized insights, our app empowers users to reduce stress and confidently achieve their financial goals.</p>
             <p className="body-text-p3 pt-5">
               <Link className="btn-green mr-4" to="https://budget-buddy.ca" target="_blank">Website</Link>
-              <Link className="btn-green" to="https://drive.google.com/file/d/1MH77n_kgjjLJ5X5eJzlX0ua73PCHTzto/view" target="_blank">Project Manual</Link>
+              <Link className="btn-green" to="https://drive.google.com/file/d/1CIs0OPMJQup0dPArqU1w9f_ygsymR9WF/view?usp=sharing" target="_blank">Case Study</Link>
             </p>
         </div>
         <div>

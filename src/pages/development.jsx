@@ -4,7 +4,7 @@ import Works from "../sections/dev/works";
 export const Development = () => {
     return (
         <>
-            <Hero />
+            {/* <Hero /> */}
             <Works />
         </>
     )

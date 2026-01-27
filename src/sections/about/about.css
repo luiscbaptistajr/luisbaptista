@@ -115,6 +115,7 @@
   /* align-items: left; */
   gap: 34px;
   flex: 1 0 0;
+  padding-top: 50px;
   padding-bottom: 50px;
   @apply mx-10;
 }

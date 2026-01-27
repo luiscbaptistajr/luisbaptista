@@ -14,7 +14,7 @@ export const AboutHero = () => {
             <div className="col-start-2 col-span-5 btn-container">
               {/* <h3 className="section-title-h3">My Resume</h3> */}
               <div className="list-blocks">
-                <a href="./files/LuisBaptista_UIUX.pdf" download>Download my Resume</a>
+                {/* <a href="./files/LuisBaptista_UIUX.pdf" download>Download my Resume</a> */}
                 {/* <a href="./files/LuisBaptista_ProdMngr.pdf" download>Frontend Developer</a> */}
               </div>
             </div>

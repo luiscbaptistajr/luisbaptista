@@ -20,7 +20,8 @@ export const Works = () => {
                         <ul className="specs">
                             <li><small>UI/UX Design</small></li>
                             <li><small>Web Design</small></li>
-                            <li><small>Project Management</small></li>
+                            <li><small>Design Thinking</small></li>
+                            <li><small>Usability Testing</small></li>
                             <li><small>Individual Project</small></li>
                         </ul>
                     </div>
@@ -34,6 +35,8 @@ export const Works = () => {
                         <ul className="specs">
                             <li><small>UX Design</small></li>
                             <li><small>UX Research</small></li>
+                            <li><small>Information Architecture</small></li>
+                            <li><small>Usability Testing</small></li>
                             <li><small>Individual Project</small></li>
                         </ul>
                     </div>
@@ -50,6 +53,7 @@ export const Works = () => {
                             <li><small>Project Management</small></li>
                             <li><small>Team Management</small></li>
                             <li><small>Team Collaboration</small></li>
+                            <li><small>Case Study</small></li>
                         </ul>
                     </div>
                     
@@ -65,6 +69,7 @@ export const Works = () => {
                             <li><small>Product Management</small></li>
                             <li><small>Team Management</small></li>
                             <li><small>Team Collaboration</small></li>
+                            <li><small>Case Study</small></li>
                         </ul>
                     </div>
                     
@@ -73,7 +78,7 @@ export const Works = () => {
                 {/* https://www.figma.com/proto/3IYv9tMZxZie6ijKVCXLsy/DestinationVancouver?page-id=123%3A62011&node-id=123-62983&p=f&viewport=-2204%2C124%2C0.15&t=COmjXZEhYCsZ40hR-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=123%3A62983 */}
 
                 <div className="card-items">
-                    <Link to="https://www.figma.com/proto/3IYv9tMZxZie6ijKVCXLsy/DestinationVancouver?page-id=123%3A62011&node-id=123-62983&p=f&viewport=-2204%2C124%2C0.15&t=COmjXZEhYCsZ40hR-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=123%3A62983" target="_blank"><img className="card-img not-ready" src="./images/VancouverDestination.jpg" alt="" /></Link>
+                    <Link to="https://www.figma.com/proto/3IYv9tMZxZie6ijKVCXLsy/DestinationVancouver?page-id=123%3A62011&node-id=123-62983&p=f&viewport=-2204%2C124%2C0.15&t=COmjXZEhYCsZ40hR-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=123%3A62983" target="_blank"><img className="card-img" src="./images/VancouverDestination.jpg" alt="" /></Link>
                     <div className="work-detail">
                         <h3>Destination Vancouver Website Design</h3>
                         <ul className="specs">
@@ -88,7 +93,7 @@ export const Works = () => {
 
                 {/* https://www.figma.com/proto/L4ZBoMKULNgqbKUs8Q5i5E/Loba-Design?page-id=0%3A1&node-id=20-5836&viewport=-163%2C-315%2C0.07&t=RI5LeQiWSZlLBJFc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=20%3A5836&show-proto-sidebar=1 */}
                 <div className="card-items">
-                    <Link to="https://www.figma.com/proto/L4ZBoMKULNgqbKUs8Q5i5E/Loba-Design?page-id=0%3A1&node-id=20-5836&viewport=-163%2C-315%2C0.07&t=RI5LeQiWSZlLBJFc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=20%3A5836&show-proto-sidebar=1" target="_blank"><img className="card-img not-ready" src="./images/loba.jpg" alt="" /></Link>
+                    <Link to="https://www.figma.com/proto/L4ZBoMKULNgqbKUs8Q5i5E/Loba-Design?page-id=0%3A1&node-id=20-5836&viewport=-163%2C-315%2C0.07&t=RI5LeQiWSZlLBJFc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=20%3A5836&show-proto-sidebar=1" target="_blank"><img className="card-img" src="./images/loba.jpg" alt="" /></Link>
                     <div className="work-detail">
                         <h3>LOBA UI - Mobile Design Challenge</h3>
                         <ul className="specs">

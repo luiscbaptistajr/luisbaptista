@@ -6,15 +6,7 @@ export const Specialties = () => {
         <div className="mx-5 my-auto skill-package-section section-content lg:mx-24">
             <h2 className="section-title-h2">Specialties</h2>
             <div className="specialties-section">
-                <div className="row-span-2 specialties-product">
-                    <Link to="/development"><div className="productDev-img"></div></Link>
-                    <div className="specialties-box">
-                        <h3 className="card-title-h3"><Link to="/development">Web Development</Link></h3>
-                        {/* <p>My experience in building application websites has refined my strengths and pushed me to overcome my limitations. This journey has led me to develop a deep understanding of every aspect of the technology stack. It has also allowed me to design frameworks and solutions that foster innovation, adaptability, and growth in diverse technical environments.&nbsp;<Link className="first-name" to="/design">View Projects</Link></p> */}
-                        <p><Link className="first-name" to="/design">View Projects</Link></p>
-                    </div>
-                </div>
-                <div className="row-span-2 specialties-product">
+            <div className="row-span-2 specialties-product">
                     {/* <div className="productDes-img"></div> */}
                     <Link to="/design"><div className="productDes-img"></div></Link>
                     <div className="specialties-box">
@@ -24,6 +16,15 @@ export const Specialties = () => {
                         {/* <p>Figma, Adobe CC, Information Architecture, Prototype, Low/High-Fidelity &nbsp;<Link className="first-name" to="/design">View Projects</Link></p> */}
                     </div>
                 </div>
+                <div className="row-span-2 specialties-product">
+                    <Link to="/development"><div className="productDev-img"></div></Link>
+                    <div className="specialties-box">
+                        <h3 className="card-title-h3"><Link to="/development">Web Development</Link></h3>
+                        {/* <p>My experience in building application websites has refined my strengths and pushed me to overcome my limitations. This journey has led me to develop a deep understanding of every aspect of the technology stack. It has also allowed me to design frameworks and solutions that foster innovation, adaptability, and growth in diverse technical environments.&nbsp;<Link className="first-name" to="/design">View Projects</Link></p> */}
+                        <p><Link className="first-name" to="/design">View Projects</Link></p>
+                    </div>
+                </div>
+                
 
                 {/* <div className="flex specialties-product">
                     <div className="productDev-img w-2/4">

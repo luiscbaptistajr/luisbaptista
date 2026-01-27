@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --cname luiscbaptistajr.com",
+    "deploy": "gh-pages -d dist --cname https://luiscbaptistajr.github.io/luisbaptista/",
     "test": "react-scripts test"
   },
   "dependencies": {

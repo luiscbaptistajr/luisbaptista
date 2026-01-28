@@ -1,7 +1,7 @@
 // import Section from "../components/section";
-import Specialties from "../sections/home/specialties";
-import Hero from "../sections/home/hero";
-import Parallax from '../sections/home/parallax';
+import Specialties from "./specialties";
+import Hero from "./hero";
+import Parallax from './parallax';
 
 export const Home = () => {
     return (

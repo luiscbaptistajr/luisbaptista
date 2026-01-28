@@ -1,5 +1,5 @@
-import Hero from "../sections/dev/hero";
-import Works from "../sections/dev/works";
+import Hero from "./hero";
+import Works from "./works";
 
 export const Development = () => {
     return (

@@ -1,7 +1,7 @@
 // import Hero from "../sections/design/hero";
-import Works from "../sections/design/works";
+import Works from "./works";
 
-import '../sections/design/design.css';
+import './design.css';
 
 export const Design = () => {
     return (
